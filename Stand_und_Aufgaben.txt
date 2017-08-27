@@ -1,6 +1,6 @@
-Erster Prototyp mit einem Kasten als Charakter und 3 Farben für verschiedene Animationen (Grau = idle, Grün = running, Rot = jumping), ein paar Platformen und einem Gegner am Ende.
+Erster Prototyp mit einem Kasten als Charakter und 3 Farben für verschiedene Animationen (Grau = idle, Grün = running, Rot = jumping) ein paar Platformen und einem Gegner am Ende.
 
 Was erledigt werden sollte:
--Sprunganimation (bisher funktionieren maximal 2 Animationen, im Moment idle und running)
+-Sprunganimation (funktioniert im Prototyp V0.1 jetzt fast)
 -Ein wenig Leveldesign -> etwas zum Laufen und Springen
 -Lebensbalken/Lebenswert über Gegner und die Möglichkeit ihm Schaden zuzufügen (zB. indem man gegen ihn läuft)
