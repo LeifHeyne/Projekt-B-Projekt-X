@@ -1,0 +1,1011 @@
+﻿Log file open, 11/19/17 21:05:47
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: ProjektX_V0_0
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1366190210) SRandInit(-1366190209).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.338673
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.19-20.05.49:355][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.19-20.05.49:355][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.19-20.05.49:428][  0]LogInit: Computer: MIKU
+[2017.11.19-20.05.49:428][  0]LogInit: User: Waldemar
+[2017.11.19-20.05.49:428][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.19-20.05.49:428][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2017.11.19-20.05.49:428][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2017.11.19-20.05.49:428][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.19-20.05.49:428][  0]LogMemory: Process Physical Memory: 280.16 MB used, 280.16 MB peak
+[2017.11.19-20.05.49:428][  0]LogMemory: Process Virtual Memory: 274.45 MB used, 274.45 MB peak
+[2017.11.19-20.05.49:428][  0]LogMemory: Physical Memory: 6271.46 MB used,  26449.48 MB free, 32720.95 MB total
+[2017.11.19-20.05.49:428][  0]LogMemory: Virtual Memory: 655.38 MB used,  26449.48 MB free, 134217728.00 MB total
+[2017.11.19-20.05.50:607][  0]LogInit: Using OS detected language (de-DE).
+[2017.11.19-20.05.50:607][  0]LogInit: Using OS detected locale (de-DE).
+[2017.11.19-20.05.50:761][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.11.19-20.05.50:761][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.11.19-20.05.56:174][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.19-20.05.56:221][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2017.11.19-20.05.56:221][  0]LogD3D11RHI:       2017/0/16360 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.19-20.05.56:222][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.19-20.05.56:222][  0]LogD3D11RHI:       0/0/16360 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.19-20.05.56:222][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.19-20.05.56:227][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.19-20.05.56:227][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.19-20.05.56:227][  0]LogWindows: EnumDisplayDevices:
+[2017.11.19-20.05.56:228][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2017.11.19-20.05.56:228][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2017.11.19-20.05.56:228][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.11.19-20.05.56:228][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.11.19-20.05.56:228][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.19-20.05.56:228][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2017.11.19-20.05.56:228][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.11.19-20.05.56:228][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.11.19-20.05.56:228][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.19-20.05.56:284][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.19-20.05.56:605][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.19-20.05.56:768][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Intermediate/Shaders/WorkingDirectory/14520/).
+[2017.11.19-20.05.56:768][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Waldemar/AppData/Local/Temp/UnrealShaderWorkingDir/765331F046AF5F87FFA561A45332E21F/'.
+[2017.11.19-20.05.56:785][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.19-20.05.59:233][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.19-20.05.59:279][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.19-20.05.59:319][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.19-20.05.59:363][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.19-20.05.59:449][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.19-20.05.59:513][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.19-20.05.59:557][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.19-20.05.59:594][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.19-20.05.59:652][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.19-20.05.59:730][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.19-20.05.59:785][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.19-20.05.59:821][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.19-20.05.59:856][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.19-20.05.59:888][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.19-20.05.59:959][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.19-20.06.00:028][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.19-20.06.00:029][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.19-20.06.00:094][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.19-20.06.00:246][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.19-20.06.00:279][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.19-20.06.00:388][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.19-20.06.00:433][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.19-20.06.00:466][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.19-20.06.00:513][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.19-20.06.00:513][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.19-20.06.01:792][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.19-20.06.01:946][  0]LogDerivedDataCache: Loaded boot cache 0.15s 93MB C:/Users/Waldemar/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.19-20.06.01:946][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Waldemar/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.19-20.06.01:946][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.19-20.06.01:946][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.19-20.06.01:946][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.19-20.06.01:946][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.19-20.06.02:020][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.19-20.06.02:034][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Waldemar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.19-20.06.02:089][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.19-20.06.02:183][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.19-20.06.02:225][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.19-20.06.02:240][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.19-20.06.09:618][  0]LogAssetRegistry: FAssetRegistry took 0.0515 seconds to start up
+[2017.11.19-20.06.11:786][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.19-20.06.17:675][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.19-20.06.20:070][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.19-20.06.20:291][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.19-20.06.20:339][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.19-20.06.20:372][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.19-20.06.20:372][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.19-20.06.20:372][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.19-20.06.26:304][  0]LogNetVersion: ProjektX_V0_0 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2444259609)
+[2017.11.19-20.06.28:836][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.113129 seconds
+[2017.11.19-20.06.28:854][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.19-20.06.28:854][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.19-20.06.28:854][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.19-20.06.28:908][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.19-20.07.04:429][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.19-20.07.04:502][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.19-20.07.05:807][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.19-20.07.06:459][  0]SourceControl: Source control is disabled
+[2017.11.19-20.07.08:229][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.19-20.07.08:498][  0]LogOcInput: OculusInput pre-init called
+[2017.11.19-20.07.09:191][  0]LogEngine: Initializing Engine...
+[2017.11.19-20.07.09:232][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.19-20.07.09:542][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.19-20.07.09:542][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.19-20.07.09:927][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.19-20.07.10:099][  0]LogInit: XAudio2 using 'Lautsprecher (High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-20.07.10:112][  0]LogInit: FAudioDevice initialized.
+[2017.11.19-20.07.10:161][  0]LogDerivedDataCache: Saved boot cache 0.05s 93MB C:/Users/Waldemar/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.19-20.07.10:169][  0]LogInit: Texture streaming: Enabled
+[2017.11.19-20.07.10:389][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.19-20.07.12:095][  0]LogInit: Transaction tracking system initialized
+[2017.11.19-20.07.16:277][  0]BlueprintLog: New page: Editor Load
+[2017.11.19-20.07.21:408][  0]LocalizationService: Localization service is disabled
+[2017.11.19-20.07.24:846][  0]LogConsoleResponse: Display: 
+[2017.11.19-20.07.27:924][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine/Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' took 0.01s
+[2017.11.19-20.07.27:925][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.19-20.07.27:925][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.19-20.07.27:943][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.19-20.07.33:938][  0]Cmd: MAP LOAD FILE="../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.19-20.07.34:003][  0]LightingResults: New page: Lighting Build
+[2017.11.19-20.07.34:468][  0]MapCheck: New page: Map Check
+[2017.11.19-20.07.34:468][  0]LightingResults: New page: Lighting Build
+[2017.11.19-20.07.35:411][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.35:411][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_0.uasset.
+[2017.11.19-20.07.35:411][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_0 : Can't find file for asset. /Game/2DSideScroller/Textures/Idle_1024x1024p
+[2017.11.19-20.07.35:411][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.35:411][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_0.uasset.
+[2017.11.19-20.07.35:411][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_0 : Can't find file for asset. /Game/2DSideScroller/Textures/Idle_1024x1024p
+[2017.11.19-20.07.35:412][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.35:413][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_1.uasset.
+[2017.11.19-20.07.35:413][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_1 : Can't find file for asset. /Game/2DSideScroller/Textures/Idle_1024x1024p
+[2017.11.19-20.07.35:413][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.35:413][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_1.uasset.
+[2017.11.19-20.07.35:413][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_1 : Can't find file for asset. /Game/2DSideScroller/Textures/Idle_1024x1024p
+[2017.11.19-20.07.35:414][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.35:414][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_2.uasset.
+[2017.11.19-20.07.35:414][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_2 : Can't find file for asset. /Game/2DSideScroller/Textures/Idle_1024x1024p
+[2017.11.19-20.07.35:415][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.35:415][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_2.uasset.
+[2017.11.19-20.07.35:415][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_2 : Can't find file for asset. /Game/2DSideScroller/Textures/Idle_1024x1024p
+[2017.11.19-20.07.35:416][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.35:416][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_3.uasset.
+[2017.11.19-20.07.35:416][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_3 : Can't find file for asset. /Game/2DSideScroller/Textures/Idle_1024x1024p
+[2017.11.19-20.07.35:416][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.35:416][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_3.uasset.
+[2017.11.19-20.07.35:416][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_3 : Can't find file for asset. /Game/2DSideScroller/Textures/Idle_1024x1024p
+[2017.11.19-20.07.35:416][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4'
+[2017.11.19-20.07.35:416][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/IdleTest.uasset.
+[2017.11.19-20.07.35:416][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/IdleTest : Can't find file for asset. /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4
+[2017.11.19-20.07.35:416][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5'
+[2017.11.19-20.07.35:416][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/IdleTest.uasset.
+[2017.11.19-20.07.35:416][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/IdleTest : Can't find file for asset. /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5
+[2017.11.19-20.07.35:417][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4'
+[2017.11.19-20.07.35:417][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/IdleTest.uasset.
+[2017.11.19-20.07.35:417][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/IdleTest : Can't find file for asset. /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4
+[2017.11.19-20.07.35:417][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5'
+[2017.11.19-20.07.35:417][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/IdleTest.uasset.
+[2017.11.19-20.07.35:418][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/IdleTest : Can't find file for asset. /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5
+[2017.11.19-20.07.35:419][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:419][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_0.uasset.
+[2017.11.19-20.07.35:419][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_0 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:419][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:419][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_0.uasset.
+[2017.11.19-20.07.35:419][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_0 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:420][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:420][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_1.uasset.
+[2017.11.19-20.07.35:420][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_1 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:420][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:420][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_1.uasset.
+[2017.11.19-20.07.35:421][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_1 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:421][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:421][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_2.uasset.
+[2017.11.19-20.07.35:421][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_2 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:422][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:422][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_2.uasset.
+[2017.11.19-20.07.35:422][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_2 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:423][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:423][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_3.uasset.
+[2017.11.19-20.07.35:423][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_3 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:423][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:423][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_3.uasset.
+[2017.11.19-20.07.35:423][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_3 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:424][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:424][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_4.uasset.
+[2017.11.19-20.07.35:424][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_4 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:424][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:424][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_4.uasset.
+[2017.11.19-20.07.35:424][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_4 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:426][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:426][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_5.uasset.
+[2017.11.19-20.07.35:426][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_5 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:426][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:426][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_5.uasset.
+[2017.11.19-20.07.35:426][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_5 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:427][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:427][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_6.uasset.
+[2017.11.19-20.07.35:427][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_6 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:428][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:428][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_6.uasset.
+[2017.11.19-20.07.35:428][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_6 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:429][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:429][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_7.uasset.
+[2017.11.19-20.07.35:429][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_7 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:429][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:429][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_7.uasset.
+[2017.11.19-20.07.35:429][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_7 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:431][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:431][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_8.uasset.
+[2017.11.19-20.07.35:431][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_8 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:432][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:432][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_8.uasset.
+[2017.11.19-20.07.35:432][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_8 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:433][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:433][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_9.uasset.
+[2017.11.19-20.07.35:433][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_9 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:434][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.35:434][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_9.uasset.
+[2017.11.19-20.07.35:434][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/JumpTest/Jump_1024x1024_Sprite_9 : Can't find file for asset. /Game/2DSideScroller/Textures/Jump_1024x1024
+[2017.11.19-20.07.35:437][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0'
+[2017.11.19-20.07.35:437][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:437][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0
+[2017.11.19-20.07.35:437][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1'
+[2017.11.19-20.07.35:437][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:437][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1
+[2017.11.19-20.07.35:437][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2'
+[2017.11.19-20.07.35:437][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:437][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2
+[2017.11.19-20.07.35:437][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3'
+[2017.11.19-20.07.35:437][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:437][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4'
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:438][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5'
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:438][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6'
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:438][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7'
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:438][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8'
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:438][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9'
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:438][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9
+[2017.11.19-20.07.35:438][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0'
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:439][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1'
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:439][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2'
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:439][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3'
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:439][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4'
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:439][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5'
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:439][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6'
+[2017.11.19-20.07.35:439][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:439][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6
+[2017.11.19-20.07.35:440][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7'
+[2017.11.19-20.07.35:440][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:440][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7
+[2017.11.19-20.07.35:440][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8'
+[2017.11.19-20.07.35:440][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:440][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8
+[2017.11.19-20.07.35:440][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9'
+[2017.11.19-20.07.35:440][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9' while loading ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/RunTest.uasset.
+[2017.11.19-20.07.35:440][  0]LoadErrors: Error: /Game/2DSideScroller/Sprites/Animations/RunTest : Can't find file for asset. /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9
+[2017.11.19-20.07.36:687][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0'
+[2017.11.19-20.07.36:687][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0.Run_1024x1024p2_Sprite_0 Referenced by RunTest
+[2017.11.19-20.07.36:687][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0' while loading NULL.
+[2017.11.19-20.07.36:687][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_0.Run_1024x1024p2_Sprite_0 Referenced by RunTest
+[2017.11.19-20.07.36:687][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1'
+[2017.11.19-20.07.36:687][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1.Run_1024x1024p2_Sprite_1 Referenced by RunTest
+[2017.11.19-20.07.36:687][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1' while loading NULL.
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_1.Run_1024x1024p2_Sprite_1 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2'
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2.Run_1024x1024p2_Sprite_2 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2' while loading NULL.
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_2.Run_1024x1024p2_Sprite_2 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3'
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3.Run_1024x1024p2_Sprite_3 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3' while loading NULL.
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_3.Run_1024x1024p2_Sprite_3 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4'
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4.Run_1024x1024p2_Sprite_4 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4' while loading NULL.
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4.Run_1024x1024p2_Sprite_4 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5'
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5.Run_1024x1024p2_Sprite_5 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5' while loading NULL.
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5.Run_1024x1024p2_Sprite_5 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6'
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6.Run_1024x1024p2_Sprite_6 Referenced by RunTest
+[2017.11.19-20.07.36:688][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6' while loading NULL.
+[2017.11.19-20.07.36:688][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6.Run_1024x1024p2_Sprite_6 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7'
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7.Run_1024x1024p2_Sprite_7 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7' while loading NULL.
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7.Run_1024x1024p2_Sprite_7 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8'
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8.Run_1024x1024p2_Sprite_8 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8' while loading NULL.
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_8.Run_1024x1024p2_Sprite_8 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4'
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4.Run_1024x1024p2_Sprite_4 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4' while loading NULL.
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_4.Run_1024x1024p2_Sprite_4 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5'
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5.Run_1024x1024p2_Sprite_5 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5' while loading NULL.
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_5.Run_1024x1024p2_Sprite_5 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6'
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6.Run_1024x1024p2_Sprite_6 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6' while loading NULL.
+[2017.11.19-20.07.36:689][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_6.Run_1024x1024p2_Sprite_6 Referenced by RunTest
+[2017.11.19-20.07.36:689][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7'
+[2017.11.19-20.07.36:690][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7.Run_1024x1024p2_Sprite_7 Referenced by RunTest
+[2017.11.19-20.07.36:690][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7' while loading NULL.
+[2017.11.19-20.07.36:690][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_7.Run_1024x1024p2_Sprite_7 Referenced by RunTest
+[2017.11.19-20.07.36:690][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9'
+[2017.11.19-20.07.36:690][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9.Run_1024x1024p2_Sprite_9 Referenced by RunTest
+[2017.11.19-20.07.36:690][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9' while loading NULL.
+[2017.11.19-20.07.36:690][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/RunTest/Run_1024x1024p2_Sprite_9.Run_1024x1024p2_Sprite_9 Referenced by RunTest
+[2017.11.19-20.07.36:690][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:690][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_9
+[2017.11.19-20.07.36:690][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:690][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_9
+[2017.11.19-20.07.36:690][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:690][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_8
+[2017.11.19-20.07.36:690][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:690][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_8
+[2017.11.19-20.07.36:690][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:690][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_7
+[2017.11.19-20.07.36:690][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:691][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_7
+[2017.11.19-20.07.36:691][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:691][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_6
+[2017.11.19-20.07.36:691][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:691][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_6
+[2017.11.19-20.07.36:692][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:692][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_5
+[2017.11.19-20.07.36:692][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:692][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_5
+[2017.11.19-20.07.36:692][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:692][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_4
+[2017.11.19-20.07.36:692][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:692][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_4
+[2017.11.19-20.07.36:692][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:692][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_3
+[2017.11.19-20.07.36:692][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:692][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_3
+[2017.11.19-20.07.36:692][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:692][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_2
+[2017.11.19-20.07.36:693][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:693][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_2
+[2017.11.19-20.07.36:693][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:693][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_1
+[2017.11.19-20.07.36:693][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:693][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_1
+[2017.11.19-20.07.36:693][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Jump_1024x1024'
+[2017.11.19-20.07.36:693][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_0
+[2017.11.19-20.07.36:693][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Jump_1024x1024' while loading NULL.
+[2017.11.19-20.07.36:693][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Jump_1024x1024.Jump_1024x1024 Referenced by Jump_1024x1024_Sprite_0
+[2017.11.19-20.07.36:693][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.36:694][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Idle_1024x1024p.Idle_1024x1024p Referenced by Idle_1024x1024p_Sprite_3
+[2017.11.19-20.07.36:694][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading NULL.
+[2017.11.19-20.07.36:694][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Idle_1024x1024p.Idle_1024x1024p Referenced by Idle_1024x1024p_Sprite_3
+[2017.11.19-20.07.36:694][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.36:694][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Idle_1024x1024p.Idle_1024x1024p Referenced by Idle_1024x1024p_Sprite_2
+[2017.11.19-20.07.36:694][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading NULL.
+[2017.11.19-20.07.36:694][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Idle_1024x1024p.Idle_1024x1024p Referenced by Idle_1024x1024p_Sprite_2
+[2017.11.19-20.07.36:694][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.36:694][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Idle_1024x1024p.Idle_1024x1024p Referenced by Idle_1024x1024p_Sprite_1
+[2017.11.19-20.07.36:694][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading NULL.
+[2017.11.19-20.07.36:694][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Idle_1024x1024p.Idle_1024x1024p Referenced by Idle_1024x1024p_Sprite_1
+[2017.11.19-20.07.36:694][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Textures/Idle_1024x1024p'
+[2017.11.19-20.07.36:694][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Idle_1024x1024p.Idle_1024x1024p Referenced by Idle_1024x1024p_Sprite_0
+[2017.11.19-20.07.36:694][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Textures/Idle_1024x1024p' while loading NULL.
+[2017.11.19-20.07.36:694][  0]LoadErrors: Failed to load /Game/2DSideScroller/Textures/Idle_1024x1024p.Idle_1024x1024p Referenced by Idle_1024x1024p_Sprite_0
+[2017.11.19-20.07.36:694][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4'
+[2017.11.19-20.07.36:694][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4.Idle_1024x1024p_Sprite_4 Referenced by IdleTest
+[2017.11.19-20.07.36:695][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4' while loading NULL.
+[2017.11.19-20.07.36:695][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4.Idle_1024x1024p_Sprite_4 Referenced by IdleTest
+[2017.11.19-20.07.36:695][  0]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5'
+[2017.11.19-20.07.36:695][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5.Idle_1024x1024p_Sprite_5 Referenced by IdleTest
+[2017.11.19-20.07.36:695][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5' while loading NULL.
+[2017.11.19-20.07.36:695][  0]LoadErrors: Failed to load /Game/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5.Idle_1024x1024p_Sprite_5 Referenced by IdleTest
+[2017.11.19-20.07.37:122][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.19-20.07.37:736][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.19-20.07.38:101][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.19-20.07.38:160][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.132ms to complete.
+[2017.11.19-20.07.38:160][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 4.260
+[2017.11.19-20.07.46:220][  0]LogSlate: Took 0.023475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.19-20.07.46:345][  0]LogSlate: Took 0.037654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.19-20.07.47:800][  0]LogRenderer: Reallocating scene render targets to support 1292x964 Format 10 NumSamples 1 (Frame:1).
+[2017.11.19-20.07.50:867][  0]LogLoad: (Engine Initialization) Total time: 137.66 seconds
+[2017.11.19-20.07.50:867][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.19-20.07.50:868][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.19-20.07.51:373][  0]SourceControl: On branch master
+[2017.11.19-20.07.51:373][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.19-20.07.51:373][  0]SourceControl: Changes not staged for commit:
+[2017.11.19-20.07.51:373][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.11.19-20.07.51:373][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.19-20.07.51:373][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/CachedAssetRegistry.bin
+[2017.11.19-20.07.51:373][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/Editor.ini
+[2017.11.19-20.07.51:373][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Logs/ProjektX_V0_0.log
+[2017.11.19-20.07.51:373][  0]SourceControl: Untracked files:
+[2017.11.19-20.07.51:373][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.19-20.07.51:373][  0]SourceControl: 	ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-2824F7C641AD10F429D8A2B996D9B404/
+[2017.11.19-20.07.51:373][  0]SourceControl: 	ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2017.11.19-21.05.47.log
+[2017.11.19-20.07.51:373][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.19-20.07.51:374][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.19-20.07.52:135][  2]LogAssetRegistry: Asset discovery search completed in 102.5385 seconds
+[2017.11.19-20.07.52:406][  2]LogCollectionManager: Loaded 0 collections in 0.001359 seconds
+[2017.11.19-20.07.52:517][  2]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine/Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' took 0.01s
+[2017.11.19-20.07.52:517][  2]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine/Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Waldemar/Collections/' took 0.01s
+[2017.11.19-20.07.52:517][  2]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine/Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' took 0.01s
+[2017.11.19-20.07.52:517][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.19-20.07.52:517][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000100 seconds (updated 0 objects)
+[2017.11.19-20.07.58:054][ 20]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2017.11.19-20.07.58:054][ 20]LogSynthBenchmark: Display: ===============
+[2017.11.19-20.07.58:054][ 20]LogSynthBenchmark: Display: Main Processor:
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:          ... 0.016166 s/Run 'RayIntersect'
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:          ... 0.014780 s/Run 'Fractal'
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display: 
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 32
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   CPU Perf Index 0: 158.4 (weight 1.00)
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   CPU Perf Index 1: 193.5 (weight 1.50)
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:  
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display: Graphics:
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 750 Ti'
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   Device Id: 0x1380
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   Device Revision: 0xA2
+[2017.11.19-20.07.58:209][ 20]LogSynthBenchmark: Display:   GPU Memory: 2018/0/16361 MB
+[2017.11.19-20.07.58:312][ 20]LogSynthBenchmark: Display:   GPU first test: 0.03s
+[2017.11.19-20.07.58:312][ 20]LogSynthBenchmark: Display:          ... 2.234 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.11.19-20.07.58:312][ 20]LogSynthBenchmark: Display:          ... 1.962 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.11.19-20.07.58:312][ 20]LogSynthBenchmark: Display:          ... 1.750 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.11.19-20.07.58:312][ 20]LogSynthBenchmark: Display:          ... 8.882 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2017.11.19-20.07.58:312][ 20]LogSynthBenchmark: Display:          ... 0.317 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2017.11.19-20.07.58:312][ 20]LogSynthBenchmark: Display:          ... 2.312 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.11.19-20.07.58:312][ 20]LogSynthBenchmark: Display:          ... 1.264 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPU second test: 0.30s
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 2.887 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 2.397 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be inaccurate)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 2.307 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 12.320 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 0.358 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 1.800 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be inaccurate)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 1.212 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPU Final Results:
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 2.887 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 2.397 s/GigaPix, Confidence=89% 'TexHeavy'
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 2.307 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 12.320 s/GigaPix, Confidence=89% 'FillOnly'
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 0.358 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 1.800 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... 1.212 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display: 
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPU Perf Index 0: 62.7 (weight 1.00)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPU Perf Index 1: 32.2 (weight 0.10)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPU Perf Index 2: 60.0 (weight 0.10)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPU Perf Index 3: 48.4 (weight 3.00)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPU Perf Index 4: 33.4 (weight 1.00)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPU Perf Index 5: 117.1 (weight 0.00)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPU Perf Index 6: 68.6 (weight 0.00)
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   CPUIndex: 179.5
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:   GPUIndex: 48.2
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display: 
+[2017.11.19-20.07.58:651][ 20]LogSynthBenchmark: Display:          ... Total Time: 0.596851 sec
+[2017.11.19-20.16.17:071][275]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.19-20.16.17:155][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.16.17:155][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-20.16.17:169][275]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 19, 2017, 10:16:17 PM)
+[2017.11.19-20.16.17:170][275]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.11.19-20.16.17:199][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029809s)
+[2017.11.19-20.16.17:200][275]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.19-20.16.17:200][275]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2017.11.19-20.16.17:200][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.030638s)
+[2017.11.19-20.16.17:238][275]LogInit: XAudio2 using 'Lautsprecher (High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-20.16.17:247][275]LogInit: FAudioDevice initialized.
+[2017.11.19-20.16.17:359][275]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-20.16.17:374][275]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.11.19-21.16.17
+[2017.11.19-20.16.17:454][275]LogWorld: Bringing up level for play took: 0.082550
+[2017.11.19-20.16.17:562][275]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.043
+[2017.11.19-20.16.17:574][275]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.17.10:799][619]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.17.10:881][619]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.19.34:651][858]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.19-20.19.34:663][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.19.34:663][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-20.19.34:663][858]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 19, 2017, 10:19:34 PM)
+[2017.11.19-20.19.34:663][858]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.11.19-20.19.34:665][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002401s)
+[2017.11.19-20.19.34:666][858]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.19-20.19.34:666][858]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2017.11.19-20.19.34:666][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003112s)
+[2017.11.19-20.19.34:688][858]LogInit: XAudio2 using 'Lautsprecher (High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-20.19.34:698][858]LogInit: FAudioDevice initialized.
+[2017.11.19-20.19.34:743][858]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-20.19.34:745][858]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.11.19-21.19.34
+[2017.11.19-20.19.34:746][858]LogWorld: Bringing up level for play took: 0.002350
+[2017.11.19-20.19.34:749][858]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.856
+[2017.11.19-20.19.34:750][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.19.40:432][535]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.19.40:473][535]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.19.56:144][378]LogEditorViewport: Clicking on Actor (LMB): Bob_C (2DSideScrollerCharacter)
+[2017.11.19-20.19.56:579][378]LogSlate: Took 0.014277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.19-20.19.58:353][507]LogEditorViewport: Clicking on Actor (LMB): Bob_C (2DSideScrollerCharacter)
+[2017.11.19-20.19.58:441][508]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2017.11.19-20.20.01:134][772]LogSlate: Took 0.014266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.19-20.20.26:044][ 10]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.19-20.20.26:052][ 10]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2388 classes and 504 folders.
+[2017.11.19-20.20.26:132][ 10]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.19-20.20.26:992][ 10]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.19-20.20.27:171][ 10]LogSlate: Took 0.018733 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.19-20.20.28:914][183]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.19-20.20.29:485][183]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 113 classes and 0 folders.
+[2017.11.19-20.20.30:334][183]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.19-20.20.30:740][183]LogSlate: Took 0.017892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.19-20.21.18:925][277]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.19-20.21.28:069][855]LogSavePackage: Save=74.64ms
+[2017.11.19-20.21.28:069][855]LogSavePackage: Moving '../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/2DSideScrollerExampleMap_Auto173191EA74CEFAF93837A0B94073AA07D.tmp' to '../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2017.11.19-20.21.28:077][855]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2017.11.19-20.21.28:085][855]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.166
+[2017.11.19-20.21.28:085][855]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.166
+[2017.11.19-20.21.28:088][855]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Bob] ([1] browsable assets)...
+[2017.11.19-20.21.28:088][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Bob]
+[2017.11.19-20.21.28:188][855]LogSavePackage: Save=95.27ms
+[2017.11.19-20.21.28:188][855]LogSavePackage: Moving '../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Bob_Auto14EEC88664C2B3343701BEF853CC8691C.tmp' to '../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto1.uasset'
+[2017.11.19-20.21.28:189][855]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto1.uasset
+[2017.11.19-20.21.28:189][855]LogFileHelpers: Auto-saving content packages took 0.102
+[2017.11.19-20.25.25:502][549]BlueprintLog: New page: Compile Bob
+[2017.11.19-20.25.36:717][711]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.19-20.25.36:731][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.25.36:732][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-20.25.36:732][711]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 19, 2017, 10:25:36 PM)
+[2017.11.19-20.25.36:732][711]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.11.19-20.25.36:734][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002623s)
+[2017.11.19-20.25.36:735][711]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.19-20.25.36:735][711]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2017.11.19-20.25.36:735][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003375s)
+[2017.11.19-20.25.36:762][711]LogInit: XAudio2 using 'Lautsprecher (High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-20.25.36:771][711]LogInit: FAudioDevice initialized.
+[2017.11.19-20.25.36:818][711]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-20.25.36:821][711]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.11.19-21.25.36
+[2017.11.19-20.25.36:821][711]LogWorld: Bringing up level for play took: 0.003059
+[2017.11.19-20.25.36:826][711]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.779
+[2017.11.19-20.25.36:826][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.25.44:438][619]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.25.44:502][619]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.26.09:110][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/Bob" FILE="../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/Bob.uasset" SILENT=true
+[2017.11.19-20.26.09:213][426]LogSavePackage: Save=99.54ms
+[2017.11.19-20.26.09:213][426]LogSavePackage: Moving '../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Bob7E924D9F4179D32BBB1079AC626295BF.tmp' to '../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/Bob.uasset'
+[2017.11.19-20.26.09:215][426]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/Bob.uasset
+[2017.11.19-20.26.19:192][424]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.19-20.26.19:206][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.26.19:206][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-20.26.19:206][424]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 19, 2017, 10:26:19 PM)
+[2017.11.19-20.26.19:206][424]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.11.19-20.26.19:209][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002372s)
+[2017.11.19-20.26.19:209][424]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.19-20.26.19:209][424]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2017.11.19-20.26.19:209][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003124s)
+[2017.11.19-20.26.19:268][424]LogInit: XAudio2 using 'Lautsprecher (High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-20.26.19:276][424]LogInit: FAudioDevice initialized.
+[2017.11.19-20.26.19:322][424]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-20.26.19:324][424]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.11.19-21.26.19
+[2017.11.19-20.26.19:325][424]LogWorld: Bringing up level for play took: 0.002304
+[2017.11.19-20.26.19:332][424]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.273
+[2017.11.19-20.26.19:332][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.26.25:218][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.26.25:289][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.27.18:578][108]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.19-20.27.18:589][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.27.18:589][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-20.27.18:589][108]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 19, 2017, 10:27:18 PM)
+[2017.11.19-20.27.18:589][108]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.11.19-20.27.18:592][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002581s)
+[2017.11.19-20.27.18:592][108]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.19-20.27.18:593][108]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.11.19-20.27.18:593][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003332s)
+[2017.11.19-20.27.18:646][108]LogInit: XAudio2 using 'Lautsprecher (High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-20.27.18:655][108]LogInit: FAudioDevice initialized.
+[2017.11.19-20.27.18:701][108]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-20.27.18:703][108]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.11.19-21.27.18
+[2017.11.19-20.27.18:704][108]LogWorld: Bringing up level for play took: 0.002905
+[2017.11.19-20.27.18:709][108]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.104
+[2017.11.19-20.27.18:709][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.27.34:430][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.27.34:499][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.19-20.28.30:891][884]Cmd: QUIT_EDITOR
+[2017.11.19-20.28.31:650][884]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.19-20.28.31:650][884]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.19-20.28.31:704][884]LogExit: Preparing to exit.
+[2017.11.19-20.28.32:861][884]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
+[2017.11.19-20.28.32:867][884]PIE: UWidget::RemoveFromParent() called on 'None.None:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.11.19-20.28.32:867][884]PIE: UWidget::RemoveFromParent() called on 'None.None:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.11.19-20.28.32:891][884]LogExit: Editor shut down
+[2017.11.19-20.28.32:895][884]LogExit: Transaction tracking system shut down
+[2017.11.19-20.28.33:113][884]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.19-20.28.33:113][884]LogDirectoryWatcher: A directory notification for '../../../../../Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
+[2017.11.19-20.28.33:113][884]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.19-20.28.33:114][884]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.19-20.28.33:114][884]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.19-20.28.33:496][884]LogExit: Object subsystem successfully closed.
+[2017.11.19-20.28.33:539][884]LogD3D11RHI: Shutdown
+[2017.11.19-20.28.33:539][884]LogD3D11RHI: CleanupD3DDevice
+[2017.11.19-20.28.33:626][884]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.19-20.28.33:858][884]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2017.11.19-20.28.33:858][884]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2017.11.19-20.28.33:871][884]LogModuleManager: Shutting down and abandoning module AddContentDialog (534)
+[2017.11.19-20.28.33:871][884]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/Unreal/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.19-20.28.33:871][884]LogModuleManager: Shutting down and abandoning module WidgetCarousel (533)
+[2017.11.19-20.28.33:871][884]LogModuleManager: Shutting down and abandoning module EditorWidgets (530)
+[2017.11.19-20.28.33:871][884]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2017.11.19-20.28.33:871][884]LogModuleManager: Shutting down and abandoning module SynthBenchmark (526)
+[2017.11.19-20.28.33:871][884]LogModuleManager: Shutting down and abandoning module CollectionManager (524)
+[2017.11.19-20.28.33:871][884]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' was aborted.
+[2017.11.19-20.28.33:871][884]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Waldemar/Collections/' was aborted.
+[2017.11.19-20.28.33:871][884]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/Projects/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' was aborted.
+[2017.11.19-20.28.33:872][884]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.11.19-20.28.33:872][884]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.11.19-20.28.33:872][884]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.19-20.28.33:872][884]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.19-20.28.33:872][884]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.19-20.28.33:880][884]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.19-20.28.33:880][884]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.19-20.28.33:880][884]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.19-20.28.33:880][884]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.19-20.28.33:880][884]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.19-20.28.33:880][884]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.19-20.28.33:881][884]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.19-20.28.33:881][884]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.19-20.28.33:881][884]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.19-20.28.33:881][884]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.19-20.28.33:881][884]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.19-20.28.33:881][884]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.19-20.28.33:890][884]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.19-20.28.33:900][884]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.19-20.28.33:900][884]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.19-20.28.33:900][884]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.19-20.28.33:915][884]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.19-20.28.33:915][884]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.19-20.28.33:915][884]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.19-20.28.33:915][884]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.19-20.28.34:224][884]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.19-20.28.34:224][884]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.19-20.28.34:224][884]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.19-20.28.34:224][884]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.19-20.28.34:262][884]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.19-20.28.34:270][884]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.19-20.28.34:270][884]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.19-20.28.34:270][884]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.19-20.28.34:270][884]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.19-20.28.34:285][884]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.19-20.28.34:301][884]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.19-20.28.34:315][884]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.19-20.28.34:315][884]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.19-20.28.34:326][884]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.19-20.28.34:326][884]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.19-20.28.34:379][884]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.19-20.28.34:379][884]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.19-20.28.34:453][884]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.19-20.28.34:468][884]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.19-20.28.34:468][884]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.19-20.28.34:468][884]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.19-20.28.34:469][884]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.19-20.28.34:488][884]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.19-20.28.34:489][884]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.19-20.28.34:489][884]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.19-20.28.34:493][884]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.19-20.28.34:493][884]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.19-20.28.34:493][884]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.19-20.28.34:515][884]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.19-20.28.34:537][884]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.19-20.28.34:537][884]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.19-20.28.34:556][884]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.19-20.28.34:557][884]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.19-20.28.34:578][884]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.19-20.28.34:578][884]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.19-20.28.34:578][884]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.19-20.28.34:600][884]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.19-20.28.34:601][884]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.19-20.28.34:601][884]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.19-20.28.34:601][884]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.19-20.28.34:601][884]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.19-20.28.34:601][884]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.19-20.28.34:601][884]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.19-20.28.34:601][884]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.19-20.28.34:601][884]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.19-20.28.34:601][884]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.19-20.28.34:674][884]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.19-20.28.34:682][884]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.19-20.28.34:683][884]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.19-20.28.34:683][884]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.19-20.28.34:683][884]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.19-20.28.34:683][884]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.19-20.28.34:683][884]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.19-20.28.34:683][884]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.19-20.28.34:683][884]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.19-20.28.34:683][884]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.19-20.28.34:683][884]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.19-20.28.34:696][884]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.19-20.28.34:696][884]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.19-20.28.34:715][884]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.19-20.28.34:715][884]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.19-20.28.34:715][884]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.19-20.28.34:715][884]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.19-20.28.34:715][884]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.19-20.28.34:724][884]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.19-20.28.34:734][884]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.19-20.28.34:735][884]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.19-20.28.34:736][884]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.19-20.28.34:736][884]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.19-20.28.34:736][884]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.19-20.28.34:736][884]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.19-20.28.34:736][884]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.19-20.28.34:736][884]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.19-20.28.34:736][884]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.19-20.28.34:736][884]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.19-20.28.34:836][884]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.19-20.28.34:937][884]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.19-20.28.34:942][884]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.19-20.28.34:942][884]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.19-20.28.34:942][884]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.19-20.28.34:942][884]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.19-20.28.34:942][884]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.19-20.28.34:943][884]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.19-20.28.34:954][884]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.19-20.28.34:954][884]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.19-20.28.34:954][884]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.19-20.28.34:978][884]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.19-20.28.34:978][884]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.19-20.28.34:978][884]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.19-20.28.34:978][884]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.19-20.28.34:978][884]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.19-20.28.34:989][884]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.19-20.28.35:001][884]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.19-20.28.35:001][884]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.19-20.28.35:015][884]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.19-20.28.35:015][884]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.19-20.28.35:016][884]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.19-20.28.35:016][884]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.19-20.28.35:016][884]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.19-20.28.35:016][884]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.19-20.28.35:016][884]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.19-20.28.35:016][884]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.19-20.28.35:016][884]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.19-20.28.35:016][884]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.19-20.28.35:016][884]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.19-20.28.35:026][884]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.19-20.28.35:035][884]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.19-20.28.35:035][884]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.19-20.28.35:043][884]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.19-20.28.35:043][884]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.19-20.28.35:043][884]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.19-20.28.35:043][884]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.19-20.28.35:043][884]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.19-20.28.35:100][884]LogDerivedDataCache: Shutdown
+[2017.11.19-20.28.35:101][884]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.19-20.28.35:101][884]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.19-20.28.35:101][884]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.19-20.28.35:101][884]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.19-20.28.35:110][884]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.19-20.28.35:110][884]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.19-20.28.35:114][884]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.19-20.28.35:115][884]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.19-20.28.35:115][884]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.19-20.28.35:115][884]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.19-20.28.35:115][884]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.19-20.28.35:115][884]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.19-20.28.35:115][884]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.19-20.28.35:115][884]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.19-20.28.35:128][884]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.19-20.28.35:140][884]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.19-20.28.35:141][884]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.19-20.28.35:141][884]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B834CBAEA-4B40-8201-CAF0-9EAEC3BBD5A6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=2bc1d95446b008d15808beac9fa282be%7C94b8af2537d54f32ac08f06f313b9138%7Ce72907e9-345c-4f48-be36-44c846e6937d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.19-20.28.35:159][884]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.19-20.28.35:160][884]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.19-20.28.35:160][884]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.19-20.28.35:160][884]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.19-20.28.35:170][884]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.19-20.28.35:171][884]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.19-20.28.35:171][884]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.19-20.28.35:171][884]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.19-20.28.35:181][884]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.19-20.28.35:185][884]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.19-20.28.35:187][884]LogExit: Exiting.
+[2017.11.19-20.28.35:198][884]Log file closed, 11/19/17 21:28:35
