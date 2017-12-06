@@ -1,12 +1,12 @@
-﻿Log file open, 11/21/17 22:54:01
+﻿Log file open, 12/06/17 13:04:38
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: ProjektX_V0_0
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2087133523) SRandInit(2087133523).
+LogInit: Display: RandInit(-434618815) SRandInit(-434618815).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.168644
+LogStats: Stats thread started at 0.122613
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,603 +108,792 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.21-21.54.03:067][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.21-21.54.03:067][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.21-21.54.03:084][  0]LogInit: Computer: LEIF
-[2017.11.21-21.54.03:084][  0]LogInit: User: Leif
-[2017.11.21-21.54.03:084][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.11.21-21.54.03:084][  0]LogInit: High frequency timer resolution =2.338337 MHz
-[2017.11.21-21.54.03:085][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.11.21-21.54.03:085][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.21-21.54.03:085][  0]LogMemory: Process Physical Memory: 277.79 MB used, 277.79 MB peak
-[2017.11.21-21.54.03:085][  0]LogMemory: Process Virtual Memory: 276.13 MB used, 276.13 MB peak
-[2017.11.21-21.54.03:085][  0]LogMemory: Physical Memory: 6955.00 MB used,  1139.46 MB free, 8094.46 MB total
-[2017.11.21-21.54.03:085][  0]LogMemory: Virtual Memory: 667.30 MB used,  1139.46 MB free, 134217728.00 MB total
-[2017.11.21-21.54.03:437][  0]LogInit: Using OS detected language (de-DE).
-[2017.11.21-21.54.03:437][  0]LogInit: Using OS detected locale (de-DE).
-[2017.11.21-21.54.03:446][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
-[2017.11.21-21.54.03:447][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
-[2017.11.21-21.54.04:626][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.21-21.54.04:659][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
-[2017.11.21-21.54.04:660][  0]LogD3D11RHI:       2019/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.11.21-21.54.04:666][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2017.11.21-21.54.04:666][  0]LogD3D11RHI:       128/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.11.21-21.54.04:668][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.21-21.54.04:668][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.21-21.54.04:668][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.21-21.54.04:678][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.21-21.54.04:678][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.21-21.54.04:678][  0]LogWindows: EnumDisplayDevices:
-[2017.11.21-21.54.04:678][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2017.11.21-21.54.04:678][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.11.21-21.54.04:679][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.11.21-21.54.04:679][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.11.21-21.54.04:679][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
-[2017.11.21-21.54.04:679][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.11.21-21.54.04:679][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.11.21-21.54.04:679][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.21-21.54.04:699][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.21-21.54.04:719][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.11.21-21.54.04:720][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Intermediate/Shaders/WorkingDirectory/11676/).
-[2017.11.21-21.54.04:721][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leif/AppData/Local/Temp/UnrealShaderWorkingDir/B86745DB44922A3AFD7C0FAD4F6152A0/'.
-[2017.11.21-21.54.04:721][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.21-21.54.06:574][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.21-21.54.06:679][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.21-21.54.06:789][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.21-21.54.06:895][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.21-21.54.07:003][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.21-21.54.07:096][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.21-21.54.07:187][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.21-21.54.07:285][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.21-21.54.07:379][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.21-21.54.07:473][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.21-21.54.07:560][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.21-21.54.07:632][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.21-21.54.07:706][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.21-21.54.07:783][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.21-21.54.07:857][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.21-21.54.08:010][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.21-21.54.08:010][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.21-21.54.08:071][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.21-21.54.08:198][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.21-21.54.08:241][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.21-21.54.08:327][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.21-21.54.08:429][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.21-21.54.08:516][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.21-21.54.08:587][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.21-21.54.08:587][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.21-21.54.09:322][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.21-21.54.09:481][  0]LogDerivedDataCache: Loaded boot cache 0.16s 93MB C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.21-21.54.09:481][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.21-21.54.09:482][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.21-21.54.09:482][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.21-21.54.09:482][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.21-21.54.09:482][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.21-21.54.09:513][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.21-21.54.09:526][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leif/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.21-21.54.09:544][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.21-21.54.09:544][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.21-21.54.09:545][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.21-21.54.09:545][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.21-21.54.09:960][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
-[2017.11.21-21.54.10:157][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.21-21.54.10:352][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.21-21.54.10:920][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.21-21.54.10:992][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.21-21.54.10:992][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.21-21.54.10:992][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.21-21.54.10:992][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.21-21.54.10:992][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.21-21.54.11:491][  0]LogNetVersion: ProjektX_V0_0 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2444259609)
-[2017.11.21-21.54.11:792][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.054088 seconds
-[2017.11.21-21.54.11:802][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.21-21.54.11:802][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.11.21-21.54.11:802][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.21-21.54.11:897][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.21-21.54.16:676][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.21-21.54.16:732][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.21-21.54.17:690][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.21-21.54.18:296][  0]SourceControl: Source control is disabled
-[2017.11.21-21.54.20:009][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.21-21.54.20:438][  0]LogOcInput: OculusInput pre-init called
-[2017.11.21-21.54.20:844][  0]LogEngine: Initializing Engine...
-[2017.11.21-21.54.20:846][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.21-21.54.21:148][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.21-21.54.21:148][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.21-21.54.21:389][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.21-21.54.21:397][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.21-21.54.21:419][  0]LogInit: FAudioDevice initialized.
-[2017.11.21-21.54.21:533][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.21-21.54.21:550][  0]LogInit: Texture streaming: Enabled
-[2017.11.21-21.54.21:738][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.21-21.54.22:104][  0]LogInit: Transaction tracking system initialized
-[2017.11.21-21.54.22:669][  0]BlueprintLog: New page: Editor Load
-[2017.11.21-21.54.24:387][  0]LocalizationService: Localization service is disabled
-[2017.11.21-21.54.25:616][  0]LogConsoleResponse: Display: 
-[2017.11.21-21.54.25:897][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.21-21.54.25:897][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.21-21.54.25:897][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.21-21.54.26:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' took 0.01s
-[2017.11.21-21.54.27:449][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.21-21.54.27:450][  0]LightingResults: New page: Lighting Build
-[2017.11.21-21.54.27:506][  0]MapCheck: New page: Map Check
-[2017.11.21-21.54.27:506][  0]LightingResults: New page: Lighting Build
-[2017.11.21-21.54.28:073][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2017.11.21-21.54.28:085][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.21-21.54.28:104][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.21-21.54.28:173][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.663ms to complete.
-[2017.11.21-21.54.28:174][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.724
-[2017.11.21-21.54.28:439][  0]LogCollectionManager: Loaded 0 collections in 0.003982 seconds
-[2017.11.21-21.54.28:632][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' took 0.02s
-[2017.11.21-21.54.28:632][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Leif/Collections/' took 0.02s
-[2017.11.21-21.54.28:632][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' took 0.01s
-[2017.11.21-21.54.28:632][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.21-21.54.28:652][  0]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 2386 classes and 500 folders.
-[2017.11.21-21.54.28:898][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2017.11.21-21.54.29:083][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2017.11.21-21.54.29:197][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.11.21-21.54.29:346][  0]LogSlate: Took 0.005762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.21-21.54.29:352][  0]LogSlate: Took 0.001196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.21-21.54.29:367][  0]LogSlate: Took 0.001939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.21-21.54.29:529][  0]LogRenderer: Reallocating scene render targets to support 804x340 Format 10 NumSamples 1 (Frame:1).
-[2017.11.21-21.54.29:948][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2017.11.21-21.54.29:948][  0]LogLoad: (Engine Initialization) Total time: 29.72 seconds
-[2017.11.21-21.54.29:948][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.21-21.54.29:948][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.11.21-21.54.29:948][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.11.21-21.54.30:310][  0]SourceControl: On branch master
-[2017.11.21-21.54.30:310][  0]SourceControl: Your branch is ahead of 'origin/master' by 3 commits.
-[2017.11.21-21.54.30:311][  0]SourceControl:   (use "git push" to publish your local commits)
-[2017.11.21-21.54.30:311][  0]SourceControl: Changes to be committed:
-[2017.11.21-21.54.30:311][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
-[2017.11.21-21.54.30:311][  0]SourceControl: 	new file:   ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/NewBlueprint.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	new file:   ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/TestStuff.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: Changes not staged for commit:
-[2017.11.21-21.54.30:311][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
-[2017.11.21-21.54.30:311][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Config/DefaultEngine.ini
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Config/DefaultInput.ini
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Content/2DSideScroller/Sprites/Animations/JumpTest.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Content/2DSideScroller/Sprites/leichter/Leicht.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/Bob.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	deleted:    ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/NewBlueprint.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	deleted:    ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/TestStuff.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/AssetRegistryCache/c90e3f55.bin
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/CachedAssetRegistry.bin
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/Config/CoalescedSourceConfigs/Input.ini
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/AutoScreenshot.png
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto2.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto8.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemy_Auto1.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Melee_Auto4.uasset
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto3.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto4.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto5.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto6.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto7.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto8.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto9.umap
-[2017.11.21-21.54.30:311][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/PackageRestoreData.json
-[2017.11.21-21.54.30:311][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-0C7C62F040137068ADE9BBA043B24094/CrashReportClient.ini
-[2017.11.21-21.54.30:311][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-2137CC644FAF23803B304EB9CE9C9DC7/CrashReportClient.ini
-[2017.11.21-21.54.30:312][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-35B70EE04D940E8DE5328E9D2D4F6505/CrashReportClient.ini
-[2017.11.21-21.54.30:312][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-3A8FD0AB40C7E65A43C6528ED8E9D1B3/CrashReportClient.ini
-[2017.11.21-21.54.30:312][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-C6F341E140C7D4918E831AB0FAA8585C/CrashReportClient.ini
-[2017.11.21-21.54.30:312][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/Editor.ini
-[2017.11.21-21.54.30:312][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.11.21-21.54.30:312][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2017.09.05-16.56.47.log
-[2017.11.21-21.54.30:312][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2017.09.05-21.52.49.log
-[2017.11.21-21.54.30:312][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2017.09.07-15.08.33.log
-[2017.11.21-21.54.30:312][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2017.09.10-12.35.22.log
-[2017.11.21-21.54.30:312][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2017.09.10-13.03.44.log
-[2017.11.21-21.54.30:312][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2017.09.11-11.10.10.log
-[2017.11.21-21.54.30:312][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Logs/ProjektX_V0_0.log
-[2017.11.21-21.54.30:312][  0]SourceControl: Untracked files:
-[2017.11.21-21.54.30:312][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleFrames/
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_4.uasset
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Content/2DSideScroller/Sprites/IdleTest/Idle_1024x1024p_Sprite_5.uasset
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Content/2DSideScroller/Sprites/RunFrames/
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Content/2DSideScroller/Sprites/RunTest/
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Content/2DSideScroller/Textures/Idle_1024x1024p.uasset
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Content/2DSideScroller/Textures/Jump_1024x1024.uasset
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Content/2DSideScroller/Textures/Run_1024x1024p2.uasset
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScroller/Sprites/leichter/Leicht_Auto1.uasset
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto1.uasset
-[2017.11.21-21.54.30:312][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto3.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto4.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto5.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto6.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto7.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Auto9.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Bob_Shoot_Auto1.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemy_Auto3.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemy_Auto4.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemy_Auto5.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MeleeLeicht_Auto1.uasset
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-11-14-58-41.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-11-21-58-43.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-11-22-16-43.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-11-22-27-09.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-11-22-38-11.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-11-22-48-45.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-11-22-58-06.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-12-00-42-50.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-12-11-56-43.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-12-12-05-14.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-12-12-50-22.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-12-13-16-16.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-09-19-23-23-18.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-10-16-16-48-02.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-10-16-17-16-41.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-10-16-17-30-15.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-10-16-17-48-19.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-08-13-25-07.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-00-44-01.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-11-05-22.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-11-20-17.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-12-07-09.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-12-22-56.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-12-49-52.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-13-04-24.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-13-20-56.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-13-29-04.umap
-[2017.11.21-21.54.30:313][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2017-11-15-14-05-57.umap
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_BuiltData_2017-09-11-22-58-06.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_BuiltData_2017-10-16-17-16-42.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_BuiltData_2017-10-16-17-51-02.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-09-11-22-13-31.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-09-11-22-48-46.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-09-11-22-55-06.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-09-12-00-42-51.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-09-12-11-52-22.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-09-12-12-47-43.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-09-12-13-09-50.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-10-16-16-48-02.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-10-16-17-02-52.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-10-16-17-16-45.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-10-16-17-35-48.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-10-16-17-48-20.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-11-05-23.uasset
-[2017.11.21-21.54.30:314][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-11-20-17.uasset
-[2017.11.21-21.54.30:315][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-12-07-09.uasset
-[2017.11.21-21.54.30:315][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-12-22-56.uasset
-[2017.11.21-21.54.30:315][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-12-33-39.uasset
-[2017.11.21-21.54.30:315][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-12-49-52.uasset
-[2017.11.21-21.54.30:316][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-13-04-24.uasset
-[2017.11.21-21.54.30:316][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-13-20-56.uasset
-[2017.11.21-21.54.30:316][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-13-28-36.uasset
-[2017.11.21-21.54.30:316][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Bob_2017-11-15-14-05-50.uasset
-[2017.11.21-21.54.30:316][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-11-14-58-41.uasset
-[2017.11.21-21.54.30:316][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-11-21-57-51.uasset
-[2017.11.21-21.54.30:316][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-11-22-11-09.uasset
-[2017.11.21-21.54.30:316][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-11-22-16-43.uasset
-[2017.11.21-21.54.30:316][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-11-22-27-09.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-11-22-38-11.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-11-22-44-55.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-11-22-58-32.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-12-11-56-43.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-09-12-12-04-49.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-10-16-17-30-15.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-10-16-17-48-20.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-10-16-18-05-17.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-10-16-18-30-39.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Enemy_2017-11-15-13-28-43.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/IdleTest_2017-09-12-12-49-58.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/JumpTest_2017-10-16-17-16-45.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Leicht_2017-10-16-17-30-16.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/MeleeLeicht_2017-09-11-22-54-18.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/MeleeLeicht_2017-09-11-22-59-18.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/MeleeLeicht_2017-10-16-16-48-02.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/MeleeLeicht_2017-10-16-17-16-46.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/MeleeLeicht_2017-10-16-18-05-16.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/MeleeLeicht_2017-10-16-18-30-52.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/MeleeSchwer_2017-09-11-22-53-54.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/MeleeSchwer_2017-09-11-23-01-48.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Melee_2017-09-11-22-13-21.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Melee_2017-09-11-22-27-09.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Melee_2017-09-11-22-33-37.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Melee_2017-09-11-22-43-19.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Melee_2017-09-11-22-52-08.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Melee_2017-09-11-23-01-48.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/NewBlueprint_2017-10-16-17-06-36.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/RunTest_2017-09-12-12-49-58.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Run_1024x1024p2_Sprite_3_2017-10-16-17-16-45.uasset
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-318BF308486279BA2F8DC0B22AE3D49A/
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-FA585129494FD443F37ACBA4D683C28B/
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2017.11.21-22.53.43.log
-[2017.11.21-21.54.30:317][  0]SourceControl: 	ProjektX_V0_1/Saved/Logs/ProjektX_V0_0_2.log
-[2017.11.21-21.54.30:318][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.21-21.54.30:369][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.21-21.54.31:297][  3]LogAssetRegistry: Asset discovery search completed in 21.3581 seconds
-[2017.11.21-21.54.31:302][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.11.21-21.54.31:302][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
-[2017.11.21-21.54.31:338][  3]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.21-22.53.46:628][778]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.21-22.53.46:933][779]Cmd: QUIT_EDITOR
-[2017.11.21-22.53.46:990][779]LogExit: Preparing to exit.
-[2017.11.21-22.53.47:493][779]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
-[2017.11.21-22.53.47:645][779]LogExit: Editor shut down
-[2017.11.21-22.53.47:686][779]LogExit: Transaction tracking system shut down
-[2017.11.21-22.53.47:960][779]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.11.21-22.53.47:960][779]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
-[2017.11.21-22.53.47:960][779]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.11.21-22.53.47:960][779]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.11.21-22.53.47:960][779]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.11.21-22.53.48:119][779]LogExit: Object subsystem successfully closed.
-[2017.11.21-22.53.48:160][779]LogD3D11RHI: Shutdown
-[2017.11.21-22.53.48:160][779]LogD3D11RHI: CleanupD3DDevice
-[2017.11.21-22.53.48:294][779]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.11.21-22.53.48:333][779]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2017.11.21-22.53.48:333][779]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2017.11.21-22.53.48:333][779]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2017.11.21-22.53.48:334][779]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.11.21-22.53.48:342][779]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2017.11.21-22.53.48:342][779]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2017.11.21-22.53.48:342][779]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2017.11.21-22.53.48:342][779]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' was aborted.
-[2017.11.21-22.53.48:342][779]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Leif/Collections/' was aborted.
-[2017.11.21-22.53.48:342][779]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' was aborted.
-[2017.11.21-22.53.48:343][779]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2017.11.21-22.53.48:343][779]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2017.11.21-22.53.48:343][779]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2017.11.21-22.53.48:344][779]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2017.11.21-22.53.48:345][779]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2017.11.21-22.53.48:345][779]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module Media (477)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2017.11.21-22.53.48:347][779]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2017.11.21-22.53.48:348][779]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2017.11.21-22.53.48:348][779]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2017.11.21-22.53.48:349][779]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2017.11.21-22.53.48:350][779]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2017.11.21-22.53.48:351][779]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2017.11.21-22.53.48:352][779]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2017.11.21-22.53.48:352][779]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2017.11.21-22.53.48:352][779]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2017.11.21-22.53.48:352][779]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2017.11.21-22.53.48:794][779]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2017.11.21-22.53.48:794][779]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2017.11.21-22.53.48:794][779]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2017.11.21-22.53.48:794][779]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2017.11.21-22.53.48:797][779]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2017.11.21-22.53.48:797][779]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2017.11.21-22.53.48:797][779]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2017.11.21-22.53.48:798][779]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2017.11.21-22.53.48:798][779]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2017.11.21-22.53.48:799][779]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2017.11.21-22.53.48:799][779]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2017.11.21-22.53.48:799][779]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2017.11.21-22.53.48:799][779]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2017.11.21-22.53.48:799][779]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2017.11.21-22.53.48:799][779]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2017.11.21-22.53.48:799][779]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2017.11.21-22.53.48:800][779]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2017.11.21-22.53.48:800][779]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2017.11.21-22.53.48:800][779]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2017.11.21-22.53.48:801][779]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2017.11.21-22.53.48:801][779]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2017.11.21-22.53.48:801][779]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2017.11.21-22.53.48:802][779]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2017.11.21-22.53.48:803][779]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2017.11.21-22.53.48:868][779]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2017.11.21-22.53.48:870][779]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2017.11.21-22.53.48:871][779]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2017.11.21-22.53.48:873][779]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2017.11.21-22.53.48:873][779]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2017.11.21-22.53.48:874][779]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2017.11.21-22.53.48:874][779]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2017.11.21-22.53.48:875][779]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2017.11.21-22.53.48:875][779]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2017.11.21-22.53.48:876][779]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2017.11.21-22.53.48:877][779]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2017.11.21-22.53.48:877][779]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2017.11.21-22.53.48:877][779]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2017.11.21-22.53.48:878][779]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2017.11.21-22.53.48:879][779]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2017.11.21-22.53.48:880][779]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2017.11.21-22.53.48:880][779]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2017.11.21-22.53.48:880][779]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2017.11.21-22.53.48:880][779]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2017.11.21-22.53.48:880][779]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2017.11.21-22.53.48:880][779]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2017.11.21-22.53.48:883][779]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2017.11.21-22.53.48:883][779]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2017.11.21-22.53.48:883][779]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2017.11.21-22.53.48:883][779]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2017.11.21-22.53.48:883][779]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2017.11.21-22.53.48:883][779]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2017.11.21-22.53.48:883][779]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2017.11.21-22.53.48:883][779]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2017.11.21-22.53.48:883][779]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2017.11.21-22.53.48:884][779]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2017.11.21-22.53.49:045][779]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2017.11.21-22.53.49:049][779]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2017.11.21-22.53.49:051][779]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2017.11.21-22.53.49:051][779]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2017.11.21-22.53.49:052][779]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2017.11.21-22.53.49:052][779]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2017.11.21-22.53.49:052][779]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2017.11.21-22.53.49:052][779]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2017.11.21-22.53.49:052][779]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2017.11.21-22.53.49:054][779]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2017.11.21-22.53.49:055][779]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2017.11.21-22.53.49:055][779]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2017.11.21-22.53.49:055][779]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2017.11.21-22.53.49:055][779]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2017.11.21-22.53.49:056][779]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2017.11.21-22.53.49:057][779]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2017.11.21-22.53.49:058][779]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2017.11.21-22.53.49:058][779]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2017.11.21-22.53.49:058][779]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2017.11.21-22.53.49:058][779]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2017.11.21-22.53.49:058][779]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2017.11.21-22.53.49:058][779]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2017.11.21-22.53.49:059][779]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2017.11.21-22.53.49:062][779]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2017.11.21-22.53.49:062][779]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2017.11.21-22.53.49:063][779]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2017.11.21-22.53.49:065][779]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.11.21-22.53.49:065][779]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.11.21-22.53.49:065][779]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.11.21-22.53.49:065][779]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.11.21-22.53.49:065][779]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.11.21-22.53.49:065][779]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.11.21-22.53.49:065][779]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.11.21-22.53.49:066][779]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.11.21-22.53.49:167][779]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.11.21-22.53.49:270][779]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.11.21-22.53.49:273][779]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.11.21-22.53.49:273][779]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.11.21-22.53.49:273][779]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.11.21-22.53.49:274][779]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.11.21-22.53.49:274][779]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.11.21-22.53.49:278][779]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.11.21-22.53.49:278][779]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.11.21-22.53.49:278][779]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.11.21-22.53.49:279][779]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.11.21-22.53.49:279][779]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.11.21-22.53.49:279][779]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.11.21-22.53.49:279][779]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.11.21-22.53.49:280][779]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.11.21-22.53.49:280][779]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.11.21-22.53.49:280][779]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.11.21-22.53.49:280][779]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.11.21-22.53.49:282][779]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.11.21-22.53.49:282][779]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.11.21-22.53.49:282][779]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.11.21-22.53.49:284][779]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.11.21-22.53.49:284][779]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.11.21-22.53.49:285][779]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.11.21-22.53.49:285][779]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.11.21-22.53.49:285][779]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.11.21-22.53.49:286][779]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.11.21-22.53.49:288][779]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.11.21-22.53.49:288][779]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.11.21-22.53.49:290][779]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.11.21-22.53.49:290][779]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.11.21-22.53.49:294][779]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.11.21-22.53.49:294][779]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.11.21-22.53.49:294][779]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.11.21-22.53.49:294][779]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.11.21-22.53.49:294][779]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.11.21-22.53.49:294][779]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.11.21-22.53.49:294][779]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.11.21-22.53.49:295][779]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.11.21-22.53.49:295][779]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.11.21-22.53.49:296][779]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.11.21-22.53.49:298][779]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.11.21-22.53.49:298][779]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.11.21-22.53.49:299][779]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.11.21-22.53.49:299][779]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.11.21-22.53.49:299][779]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.11.21-22.53.49:300][779]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.11.21-22.53.49:309][779]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.11.21-22.53.49:369][779]LogDerivedDataCache: Shutdown
-[2017.11.21-22.53.49:371][779]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.11.21-22.53.49:372][779]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.11.21-22.53.49:372][779]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.11.21-22.53.49:373][779]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.11.21-22.53.49:373][779]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.11.21-22.53.49:374][779]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.11.21-22.53.49:374][779]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.11.21-22.53.49:374][779]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.11.21-22.53.49:374][779]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.11.21-22.53.49:375][779]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.11.21-22.53.49:376][779]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.11.21-22.53.49:377][779]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.11.21-22.53.49:377][779]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.11.21-22.53.49:377][779]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.11.21-22.53.49:377][779]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.11.21-22.53.49:377][779]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.11.21-22.53.49:377][779]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.11.21-22.53.49:377][779]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.11.21-22.53.49:377][779]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.11.21-22.53.49:377][779]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.11.21-22.53.49:377][779]LogOnline: Display: Unloading online subsystem: NULL
-[2017.11.21-22.53.49:378][779]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.11.21-22.53.49:379][779]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.11.21-22.53.49:379][779]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.11.21-22.53.49:379][779]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0C382B22-4258-A5D7-1FA4-ADAC22513121%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=efba3ab9482b305128aa6e811f8e1b76%7C69587fd7c6ae41c4ad6af4aa39d8897a%7C4823cf29-f1b7-4149-9c67-b669424bd616&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.11.21-22.53.49:412][779]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.11.21-22.53.49:418][779]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.11.21-22.53.49:419][779]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.11.21-22.53.49:419][779]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.11.21-22.53.49:420][779]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.11.21-22.53.49:420][779]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.11.21-22.53.49:420][779]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.11.21-22.53.49:420][779]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.11.21-22.53.49:425][779]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.11.21-22.53.49:426][779]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.11.21-22.53.49:426][779]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.11.21-22.53.49:426][779]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.11.21-22.53.49:426][779]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.11.21-22.53.49:426][779]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.11.21-22.53.49:426][779]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.11.21-22.53.49:427][779]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.11.21-22.53.49:427][779]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.11.21-22.53.49:427][779]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.11.21-22.53.49:427][779]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.11.21-22.53.49:430][779]LogExit: Exiting.
-[2017.11.21-22.53.49:476][779]Log file closed, 11/21/17 23:53:49
+[2017.12.06-12.04.38:986][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.06-12.04.38:986][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.06-12.04.39:039][  0]LogInit: Computer: LEIF
+[2017.12.06-12.04.39:039][  0]LogInit: User: Leif
+[2017.12.06-12.04.39:039][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.12.06-12.04.39:039][  0]LogInit: High frequency timer resolution =2.338334 MHz
+[2017.12.06-12.04.39:040][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.06-12.04.39:040][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.06-12.04.39:040][  0]LogMemory: Process Physical Memory: 278.35 MB used, 278.35 MB peak
+[2017.12.06-12.04.39:040][  0]LogMemory: Process Virtual Memory: 275.98 MB used, 275.98 MB peak
+[2017.12.06-12.04.39:040][  0]LogMemory: Physical Memory: 5877.40 MB used,  2217.06 MB free, 8094.46 MB total
+[2017.12.06-12.04.39:040][  0]LogMemory: Virtual Memory: 667.29 MB used,  2217.06 MB free, 134217728.00 MB total
+[2017.12.06-12.04.39:472][  0]LogInit: Using OS detected language (de-DE).
+[2017.12.06-12.04.39:472][  0]LogInit: Using OS detected locale (de-DE).
+[2017.12.06-12.04.39:478][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.12.06-12.04.39:479][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.12.06-12.04.40:745][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.06-12.04.40:779][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2017.12.06-12.04.40:779][  0]LogD3D11RHI:       2019/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.06-12.04.40:786][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.12.06-12.04.40:786][  0]LogD3D11RHI:       128/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.06-12.04.40:789][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.06-12.04.40:789][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.06-12.04.40:789][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.06-12.04.40:797][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.06-12.04.40:798][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.06-12.04.40:798][  0]LogWindows: EnumDisplayDevices:
+[2017.12.06-12.04.40:798][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.12.06-12.04.40:798][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.12.06-12.04.40:799][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.12.06-12.04.40:799][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.06-12.04.40:799][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2017.12.06-12.04.40:799][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.06-12.04.40:799][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.06-12.04.40:799][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.06-12.04.40:822][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.06-12.04.40:843][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.06-12.04.40:845][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Intermediate/Shaders/WorkingDirectory/15904/).
+[2017.12.06-12.04.40:846][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leif/AppData/Local/Temp/UnrealShaderWorkingDir/B8A07F9946C1DF011D2BF9BD6B46D180/'.
+[2017.12.06-12.04.40:846][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.06-12.04.42:315][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.06-12.04.42:397][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.06-12.04.42:500][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.06-12.04.42:577][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.06-12.04.42:664][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.06-12.04.42:743][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.06-12.04.42:844][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.06-12.04.42:936][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.06-12.04.43:007][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.06-12.04.43:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.06-12.04.43:170][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.06-12.04.43:248][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.06-12.04.43:330][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.06-12.04.43:421][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.06-12.04.43:519][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.06-12.04.43:679][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.06-12.04.43:679][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.06-12.04.43:740][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.06-12.04.43:879][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.06-12.04.43:934][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.06-12.04.44:011][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.06-12.04.44:091][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.06-12.04.44:170][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.06-12.04.44:239][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.06-12.04.44:239][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.06-12.04.44:888][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.06-12.04.44:999][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.06-12.04.44:999][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.06-12.04.45:000][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.06-12.04.45:000][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.06-12.04.45:000][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.06-12.04.45:000][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.06-12.04.45:021][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.06-12.04.45:037][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leif/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.06-12.04.45:050][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.06-12.04.45:050][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.06-12.04.45:051][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.06-12.04.45:051][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.06-12.04.45:415][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2017.12.06-12.04.45:636][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.06-12.04.45:883][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.06-12.04.46:367][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.06-12.04.46:433][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.06-12.04.46:433][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.06-12.04.46:433][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.06-12.04.46:433][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.06-12.04.46:433][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.06-12.04.47:075][  0]LogNetVersion: ProjektX_V0_0 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2444259609)
+[2017.12.06-12.04.47:441][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.052797 seconds
+[2017.12.06-12.04.47:453][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.06-12.04.47:453][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.06-12.04.47:453][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.06-12.04.47:552][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.06-12.04.51:455][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.06-12.04.51:509][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.06-12.04.52:461][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.06-12.04.53:028][  0]SourceControl: Source control is disabled
+[2017.12.06-12.04.54:627][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.06-12.04.55:046][  0]LogOcInput: OculusInput pre-init called
+[2017.12.06-12.04.55:468][  0]LogEngine: Initializing Engine...
+[2017.12.06-12.04.55:470][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.06-12.04.55:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.06-12.04.55:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.06-12.04.56:140][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.06-12.04.56:150][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.06-12.04.56:168][  0]LogInit: FAudioDevice initialized.
+[2017.12.06-12.04.56:297][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.06-12.04.56:329][  0]LogInit: Texture streaming: Enabled
+[2017.12.06-12.04.56:698][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.06-12.04.57:138][  0]LogInit: Transaction tracking system initialized
+[2017.12.06-12.04.57:642][  0]BlueprintLog: New page: Editor Load
+[2017.12.06-12.04.59:137][  0]LocalizationService: Localization service is disabled
+[2017.12.06-12.05.00:276][  0]LogConsoleResponse: Display: 
+[2017.12.06-12.05.00:548][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.06-12.05.00:548][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.06-12.05.00:549][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.06-12.05.01:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' took 0.01s
+[2017.12.06-12.05.02:154][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.06-12.05.02:155][  0]LightingResults: New page: Lighting Build
+[2017.12.06-12.05.02:220][  0]MapCheck: New page: Map Check
+[2017.12.06-12.05.02:220][  0]LightingResults: New page: Lighting Build
+[2017.12.06-12.05.03:099][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.06-12.05.03:113][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.06-12.05.03:138][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.06-12.05.03:230][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.632ms to complete.
+[2017.12.06-12.05.03:230][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.076
+[2017.12.06-12.05.03:297][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.06-12.05.03:486][  0]LogCollectionManager: Loaded 0 collections in 0.003678 seconds
+[2017.12.06-12.05.03:617][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' took 0.01s
+[2017.12.06-12.05.03:617][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Leif/Collections/' took 0.01s
+[2017.12.06-12.05.03:617][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' took 0.01s
+[2017.12.06-12.05.03:617][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.06-12.05.03:629][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2386 classes and 500 folders.
+[2017.12.06-12.05.03:732][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.12.06-12.05.03:792][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.12.06-12.05.03:869][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.12.06-12.05.03:987][  0]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.06-12.05.03:990][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.06-12.05.03:996][  0]LogSlate: Took 0.001033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.06-12.05.04:102][  0]LogRenderer: Reallocating scene render targets to support 804x340 Format 10 NumSamples 1 (Frame:1).
+[2017.12.06-12.05.04:363][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.06-12.05.04:363][  0]LogLoad: (Engine Initialization) Total time: 27.86 seconds
+[2017.12.06-12.05.04:363][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.06-12.05.04:364][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.06-12.05.04:364][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.06-12.05.04:399][  0]SourceControl: On branch master
+[2017.12.06-12.05.04:399][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.12.06-12.05.04:399][  0]SourceControl: Changes not staged for commit:
+[2017.12.06-12.05.04:399][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.12.06-12.05.04:399][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Config/DefaultEditor.ini
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Config/DefaultEditorPerProjectUserSettings.ini
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Config/DefaultEngine.ini
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Config/DefaultGame.ini
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Config/DefaultInput.ini
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Extras/Enum_CharacterAnimation.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Materials/PrototypingSpriteMaterial.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Animation_Enemy.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Animation_Idle.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Animation_Jumping.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Animation_Running.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Animations/Animation_Enemy.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Animations/Animation_Idle.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Animations/Animation_Jumping.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Animations/Animation_LHit.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Animations/Animation_Running.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Background_Sprite.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultAnimations(old)/IdleAnimation.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultAnimations(old)/RunningAnimation.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/Background_Sprite.uasset
+[2017.12.06-12.05.04:399][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/IdleAnimation.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/IdleFrames/IdleCycle1.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/IdleFrames/IdleCycle2.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/IdleFrames/IdleCycle3.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/IdleFrames/IdleCycle4.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/IdleFrames/IdleCycle5.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/IdleFrames/IdleCycle6.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/IdleFrames/IdleCycle7.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/IdleFrames/IdleCycle8.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/Ledge.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/PrototypingSprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_1.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_10.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_11.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_12.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_13.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_14.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_15.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_16.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_2.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_3.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_4.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_5.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_6.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_7.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_8.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunFrames/RunCycle_9.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/DefaultStuff/RunningAnimation.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Enemy.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/EnemyTextures/Enemy.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/EnemyTextures/Enemy_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Enemy_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleFrames/IdleCycle1.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleFrames/IdleCycle2.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleFrames/IdleCycle3.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleFrames/IdleCycle4.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleFrames/IdleCycle5.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleFrames/IdleCycle6.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleFrames/IdleCycle7.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleFrames/IdleCycle8.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_1.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_1_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_2.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_2_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_3.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_3_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_4.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_4_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_5.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_5_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_6.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_6_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_7.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_7_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_8.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/IdleTextures/IdleAnimation_8_Sprite.uasset
+[2017.12.06-12.05.04:400][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/JumpingTextures/JumpAnimation_1.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/JumpingTextures/JumpAnimation_1_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/JumpingTextures/JumpAnimation_2.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/JumpingTextures/JumpAnimation_2_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/JumpingTextures/JumpAnimation_3.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/JumpingTextures/JumpAnimation_3_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/JumpingTextures/JumpAnimation_4.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/JumpingTextures/JumpAnimation_4_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_0.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_1.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_10.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_11.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_12.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_13.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_14.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_15.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_2.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_3.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_4.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_5.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_6.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_7.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_8.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Sprite_9.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Ledge.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/PrototypingSprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_1.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_10.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_11.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_12.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_13.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_14.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_15.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_16.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_2.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_3.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_4.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_5.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_6.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_7.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_8.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunFrames/RunCycle_9.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunningTextures/RunAnimation_1.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunningTextures/RunAnimation_1_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunningTextures/RunAnimation_2.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunningTextures/RunAnimation_2_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunningTextures/RunAnimation_3.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunningTextures/RunAnimation_3_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunningTextures/RunAnimation_4.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/RunningTextures/RunAnimation_4_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Terrain.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/TerrainTextures/Terrain.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/TerrainTextures/Terrain_Sprite.uasset
+[2017.12.06-12.05.04:401][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Sprites/Terrain_Sprite.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Textures/2DBackground.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Textures/2DBackgroundBlockAtlas.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Textures/2DBackgroundTile.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Textures/2DCharacter_IdleAnimAtlas.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScroller/Textures/2DCharacter_RunAnimAtlas.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScrollerBP/2DSideScrollerOverview.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScrollerBP/Blueprints/Enemy.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/AssetRegistryCache/1f683343.bin
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/AssetRegistryCache/2657c409.bin
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/AssetRegistryCache/311563bb.bin
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/AssetRegistryCache/866581fd.bin
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/AssetRegistryCache/8c0e1344.bin
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/AssetRegistryCache/f0d5030c.bin
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/CachedAssetRegistry.bin
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/AlembicImporter.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/AndroidDeviceProfileSelector.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/AndroidMedia.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/AndroidMoviePlayer.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/AndroidPermission.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/AppleMoviePlayer.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/ArchVisCharacter.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/AssetManagerEditor.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/AudioCapture.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/AvfMedia.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/CableComponent.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/CharacterAI.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/CodeLiteSourceCodeAccess.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/Compat.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/CustomMeshComponent.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/DeviceProfiles.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/Editor.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/EditorKeyBindings.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/EditorLayout.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/ExampleDeviceProfileSelector.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/FacialAnimation.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/GameplayTags.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/GameplayTagsEditor.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/GameplayTagsList.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/GitSourceControl.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/GoogleCloudMessaging.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/HTML5Networking.ini
+[2017.12.06-12.05.04:402][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/Hardware.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/IOSDeviceProfileSelector.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/ImmediatePhysics.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/InternationalizationExport.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/KDevelopSourceCodeAccess.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/LevelSequenceEditor.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/LightPropagationVolume.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/LinuxDeviceProfileSelector.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/LocalizationServiceSettings.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/LocationServicesBPLibrary.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/MatineeToLevelSequence.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/MediaPlayerEditor.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/MobileLauncherProfileWizard.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/MobilePatchingUtils.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/NullSourceCodeAccess.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/OculusVR.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/OnlineSubsystem.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/OnlineSubsystemGooglePlay.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/OnlineSubsystemIOS.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/OnlineSubsystemNull.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/OnlineSubsystemUtils.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/Paper2D.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/PerforceSourceControl.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/PhysXVehicles.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/PluginBrowser.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/ProceduralMeshComponent.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/RuntimePhysXCooking.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/Scalability.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/SourceControlSettings.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/SpeedTreeImporter.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/SteamVR.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/SubversionSourceControl.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/TcpMessaging.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/TemplateDefs.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/TranslationPickerSettings.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/UObjectPlugin.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/UdpMessaging.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/VisualStudioSourceCodeAccess.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/WindowsMoviePlayer.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/WmfMedia.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/Config/CoalescedSourceConfigs/XCodeSourceCodeAccess.ini
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Intermediate/ReimportCache/3688439234.bin
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/ProjektX_V0_0.uproject
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/AutoScreenshot.png
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Extras/CharacterAnimation_Auto7.uasset
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/Animation_Enemy_Auto4.uasset
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/Animation_Idle_Auto1.uasset
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/Animation_Idle_Auto4.uasset
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/Enemy_Auto4.uasset
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/Enemy_Sprite_Auto4.uasset
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/LHitTextures/LeichtenAngriff_Auto6.uasset
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/LeichtenAngriff_Auto1.uasset
+[2017.12.06-12.05.04:403][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/LeichtenAngriff_Sprite_Auto1.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/LeichtenAngriff_Sprite_Auto2.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/Terrain_Auto2.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScroller/Sprites/Terrain_Sprite_Auto2.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto0.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto1.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto2.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto4.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto5.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto6.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto7.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto8.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto9.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto0.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto3.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto4.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto5.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto6.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto8.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto9.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Autosaves/PackageRestoreData.json
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-26-20-21-28.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-26-20-42-23.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-26-21-06-22.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-26-21-27-02.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-26-21-33-43.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-26-21-47-40.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-27-18-59-09.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-27-20-16-03.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-27-20-21-07.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-27-20-31-02.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-27-20-42-00.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-27-20-47-51.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-27-20-59-00.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerCharacter_2017-08-27-21-09-29.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-26-20-05-38.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-26-20-21-28.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-26-20-42-23.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-26-20-55-37.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-26-21-06-22.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-26-21-35-54.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-26-21-47-40.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-27-19-06-35.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-27-19-16-46.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-27-19-26-46.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-27-19-36-48.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-27-20-31-02.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-27-20-42-00.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-27-20-58-59.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_2017-08-27-21-09-29.umap
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/2DSideScrollerExampleMap_BuiltData_2017-08-27-21-11-27.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Animation_Enemy_2017-08-27-19-00-19.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Animation_Idle_2017-08-26-20-58-37.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Animation_Idle_2017-08-26-21-06-22.uasset
+[2017.12.06-12.05.04:404][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Animation_Idle_2017-08-26-21-51-18.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Animation_LHit_2017-08-27-21-03-24.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Enemy_2017-08-26-21-01-15.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Enemy_2017-08-27-18-59-09.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Enum_CharacterAnimation_2017-08-27-20-19-15.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/IdleAnimation_2017-08-27-18-59-56.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Ledge_2017-08-27-19-01-08.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/LeichtenAngriff_2017-08-27-19-36-48.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/LeichtenAngriff_2017-08-27-21-11-21.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/RunningAnimation_2017-08-27-18-59-55.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Backup/Terrain_Sprite_2017-08-27-19-00-33.uasset
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/CrashReportClient/UE4CC-Windows-55D3BE48452E349908CDE2A446955074/CrashReportClient.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/CrashReportClient/UE4CC-Windows-6A73DBA04C8E8BFE2AD6E5A1647692BF/CrashReportClient.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/Compat.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/DeviceProfiles.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/Editor.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/Engine.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/Game.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/GameUserSettings.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/Hardware.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/Input.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/Lightmass.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/OculusVR.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/Paper2D.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/PhysXVehicles.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/Windows/Scalability.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Config/WorldState/2301629174.json
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Crashes/UE4CC-Windows-6A73DBA04C8E8BFE2AD6E5A1647692BF_0000/CrashContext.runtime-xml
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Crashes/UE4CC-Windows-6A73DBA04C8E8BFE2AD6E5A1647692BF_0000/CrashReportClient.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Crashes/UE4CC-Windows-6A73DBA04C8E8BFE2AD6E5A1647692BF_0000/ProjektX_V0_0.log
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Crashes/UE4CC-Windows-6A73DBA04C8E8BFE2AD6E5A1647692BF_0000/UE4Minidump.dmp
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Logs/ProjektX_V0_0-backup-2017.08.27-18.34.38.log
+[2017.12.06-12.05.04:405][  0]SourceControl: 	deleted:    ProjektX_V0_0/Saved/Logs/ProjektX_V0_0.log
+[2017.12.06-12.05.04:405][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.12.06-12.05.04:405][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/CachedAssetRegistry.bin
+[2017.12.06-12.05.04:405][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/Editor.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/Engine.ini
+[2017.12.06-12.05.04:405][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Logs/ProjektX_V0_0.log
+[2017.12.06-12.05.04:405][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Logs/ProjektX_V0_0_2.log
+[2017.12.06-12.05.04:405][  0]SourceControl: Untracked files:
+[2017.12.06-12.05.04:405][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.12.06-12.05.04:405][  0]SourceControl: 	ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-28A94F8A41C5F810F485D0A1ECF99729/
+[2017.12.06-12.05.04:405][  0]SourceControl: 	ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-F522827D49AA6F52C0ED94A1B6BC51E6/
+[2017.12.06-12.05.04:405][  0]SourceControl: 	ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2017.12.06-13.02.25.log
+[2017.12.06-12.05.04:405][  0]SourceControl: 	ProjektX_V0_1/Saved/Logs/ProjektX_V0_0_2-backup-2017.12.06-13.04.38.log
+[2017.12.06-12.05.04:405][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.12.06-12.05.04:406][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.06-12.05.04:428][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.06-12.05.04:464][  1]LogAssetRegistry: Asset discovery search completed in 19.0710 seconds
+[2017.12.06-12.05.04:466][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.06-12.05.04:466][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2017.12.06-12.05.20:321][939]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.06-12.05.20:799][939]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
+[2017.12.06-12.05.21:665][939]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.06-12.05.21:771][939]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.06-12.05.22:504][940]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.06-12.05.28:046][188]LogRenderer: Reallocating scene render targets to support 804x348 Format 10 NumSamples 1 (Frame:1).
+[2017.12.06-12.05.57:249][410]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.06-12.05.57:564][411]Cmd: QUIT_EDITOR
+[2017.12.06-12.05.57:678][411]LogExit: Preparing to exit.
+[2017.12.06-12.05.58:756][411]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
+[2017.12.06-12.05.58:888][411]LogExit: Editor shut down
+[2017.12.06-12.05.58:901][411]LogExit: Transaction tracking system shut down
+[2017.12.06-12.05.59:176][411]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.06-12.05.59:176][411]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
+[2017.12.06-12.05.59:177][411]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.06-12.05.59:177][411]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.06-12.05.59:177][411]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.06-12.05.59:358][411]LogExit: Object subsystem successfully closed.
+[2017.12.06-12.05.59:390][411]LogD3D11RHI: Shutdown
+[2017.12.06-12.05.59:390][411]LogD3D11RHI: CleanupD3DDevice
+[2017.12.06-12.05.59:524][411]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.06-12.05.59:549][411]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.12.06-12.05.59:549][411]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.12.06-12.05.59:549][411]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.12.06-12.05.59:549][411]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.12.06-12.05.59:549][411]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.12.06-12.05.59:550][411]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.12.06-12.05.59:551][411]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' was aborted.
+[2017.12.06-12.05.59:551][411]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Leif/Collections/' was aborted.
+[2017.12.06-12.05.59:551][411]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' was aborted.
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.06-12.05.59:551][411]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.06-12.05.59:552][411]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.06-12.05.59:768][411]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.06-12.05.59:769][411]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.06-12.05.59:834][411]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.12.06-12.05.59:846][411]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.12.06-12.05.59:847][411]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.12.06-12.06.00:025][411]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.12.06-12.06.00:026][411]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.12.06-12.06.00:026][411]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.12.06-12.06.00:026][411]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.12.06-12.06.00:026][411]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.12.06-12.06.00:026][411]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.12.06-12.06.00:026][411]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.12.06-12.06.00:026][411]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.12.06-12.06.00:026][411]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.12.06-12.06.00:027][411]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.12.06-12.06.00:027][411]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.12.06-12.06.00:027][411]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.12.06-12.06.00:027][411]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.12.06-12.06.00:027][411]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.12.06-12.06.00:027][411]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.12.06-12.06.00:027][411]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.12.06-12.06.00:027][411]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.12.06-12.06.00:027][411]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.12.06-12.06.00:028][411]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.12.06-12.06.00:029][411]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.12.06-12.06.00:029][411]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.12.06-12.06.00:030][411]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.12.06-12.06.00:030][411]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.12.06-12.06.00:030][411]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.12.06-12.06.00:032][411]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.06-12.06.00:032][411]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.06-12.06.00:032][411]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.06-12.06.00:032][411]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.06-12.06.00:032][411]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.06-12.06.00:032][411]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.06-12.06.00:032][411]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.06-12.06.00:032][411]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.06-12.06.00:133][411]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.06-12.06.00:234][411]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.06-12.06.00:234][411]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.06-12.06.00:234][411]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.06-12.06.00:234][411]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.06-12.06.00:234][411]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.06-12.06.00:234][411]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.06-12.06.00:237][411]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.06-12.06.00:238][411]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.06-12.06.00:239][411]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.06-12.06.00:246][411]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.06-12.06.00:247][411]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.06-12.06.00:248][411]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.06-12.06.00:639][411]LogDerivedDataCache: Shutdown
+[2017.12.06-12.06.00:639][411]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.06-12.06.00:639][411]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.06-12.06.00:639][411]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.06-12.06.00:639][411]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.06-12.06.00:639][411]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.06-12.06.00:639][411]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.06-12.06.00:639][411]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.06-12.06.00:640][411]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.06-12.06.00:641][411]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.06-12.06.00:642][411]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.06-12.06.00:643][411]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.06-12.06.00:643][411]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.06-12.06.00:643][411]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.06-12.06.00:643][411]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.06-12.06.00:643][411]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.06-12.06.00:643][411]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5CE93C2-4E82-18F1-3BE2-1492FAA46FCC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=efba3ab9482b305128aa6e811f8e1b76%7C69587fd7c6ae41c4ad6af4aa39d8897a%7C4823cf29-f1b7-4149-9c67-b669424bd616&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.06-12.06.00:663][411]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.06-12.06.00:667][411]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.06-12.06.00:667][411]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.06-12.06.00:667][411]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.06-12.06.00:667][411]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.06-12.06.00:667][411]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.06-12.06.00:667][411]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.06-12.06.00:667][411]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.06-12.06.00:669][411]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.06-12.06.00:670][411]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.06-12.06.00:672][411]LogExit: Exiting.
+[2017.12.06-12.06.00:748][411]Log file closed, 12/06/17 13:06:00
