@@ -1,14 +1,13 @@
-﻿Log file open, 02/21/18 11:26:07
+﻿Log file open, 02/21/18 14:40:10
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: ProjektX_V0_0
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-87053070) SRandInit(-87053070).
+LogInit: Display: RandInit(1366004320) SRandInit(1366004320).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.154007
+LogStats: Stats thread started at 0.194331
 LogD3D11RHI: Aftermath initialized
-LogConfig: Warning: Failed to saved backup for config[Game]
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
@@ -109,477 +108,996 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.21-10.26.09:217][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.21-10.26.09:217][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.21-10.26.09:233][  0]LogConfig: Warning: Failed to saved backup for config[DeviceProfiles]
-[2018.02.21-10.26.09:239][  0]LogInit: Computer: LEIF
-[2018.02.21-10.26.09:239][  0]LogInit: User: Leif
-[2018.02.21-10.26.09:239][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.02.21-10.26.09:239][  0]LogInit: High frequency timer resolution =2.338335 MHz
-[2018.02.21-10.26.09:239][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.02.21-10.26.09:239][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.21-10.26.09:239][  0]LogMemory: Process Physical Memory: 280.40 MB used, 280.40 MB peak
-[2018.02.21-10.26.09:239][  0]LogMemory: Process Virtual Memory: 276.19 MB used, 276.19 MB peak
-[2018.02.21-10.26.09:239][  0]LogMemory: Physical Memory: 4688.16 MB used,  3406.30 MB free, 8094.46 MB total
-[2018.02.21-10.26.09:239][  0]LogMemory: Virtual Memory: 667.43 MB used,  3406.30 MB free, 134217728.00 MB total
-[2018.02.21-10.26.09:916][  0]LogInit: Using OS detected language (de-DE).
-[2018.02.21-10.26.09:916][  0]LogInit: Using OS detected locale (de-DE).
-[2018.02.21-10.26.09:935][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
-[2018.02.21-10.26.09:936][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
-[2018.02.21-10.26.11:232][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.21-10.26.11:666][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
-[2018.02.21-10.26.11:666][  0]LogD3D11RHI:       2019/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.21-10.26.11:678][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2018.02.21-10.26.11:678][  0]LogD3D11RHI:       128/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.02.21-10.26.11:713][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.21-10.26.11:713][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.21-10.26.11:713][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.21-10.26.11:727][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.21-10.26.11:727][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.21-10.26.11:727][  0]LogWindows: EnumDisplayDevices:
-[2018.02.21-10.26.11:727][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2018.02.21-10.26.11:728][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.02.21-10.26.11:729][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.02.21-10.26.11:729][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.21-10.26.11:729][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
-[2018.02.21-10.26.11:729][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.21-10.26.11:729][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.21-10.26.11:729][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.02.21-10.26.11:762][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.21-10.26.11:786][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.02.21-10.26.11:787][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Intermediate/Shaders/WorkingDirectory/4732/).
-[2018.02.21-10.26.11:787][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leif/AppData/Local/Temp/UnrealShaderWorkingDir/7A04BED445F985A42961CE9476B7BE00/'.
-[2018.02.21-10.26.11:787][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.21-10.26.14:259][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.21-10.26.14:354][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.21-10.26.14:439][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.21-10.26.14:526][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.21-10.26.14:625][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.21-10.26.14:714][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.21-10.26.14:823][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.21-10.26.15:000][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.21-10.26.15:128][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.21-10.26.15:261][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.21-10.26.15:386][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.21-10.26.15:511][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.21-10.26.15:683][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.21-10.26.15:789][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.21-10.26.15:862][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.21-10.26.16:023][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.21-10.26.16:023][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.21-10.26.16:083][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.21-10.26.16:204][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.21-10.26.16:243][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.21-10.26.16:318][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.21-10.26.16:393][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.21-10.26.16:471][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.21-10.26.16:557][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.21-10.26.16:557][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.21-10.26.17:318][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.21-10.26.18:349][  0]LogDerivedDataCache: Loaded boot cache 1.03s 93MB C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.02.21-10.26.18:349][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.02.21-10.26.18:349][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.21-10.26.18:349][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.21-10.26.18:349][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.21-10.26.18:349][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.21-10.26.18:397][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.21-10.26.18:413][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leif/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.21-10.26.18:445][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.21-10.26.18:446][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.21-10.26.18:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.21-10.26.18:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.21-10.26.19:276][  0]LogAssetRegistry: FAssetRegistry took 0.0300 seconds to start up
-[2018.02.21-10.26.19:510][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.21-10.26.20:302][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.21-10.26.20:393][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.21-10.26.20:393][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.21-10.26.20:393][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.21-10.26.20:393][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.21-10.26.20:393][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.21-10.26.20:396][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.02.21-10.26.20:809][  0]LogConfig: Warning: Failed to saved backup for config[TemplateDefs]
-[2018.02.21-10.26.21:361][  0]LogNetVersion: ProjektX_V0_0 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2444259609)
-[2018.02.21-10.26.21:741][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Intermediate/AssetRegistryCache/866581fd.bin
-[2018.02.21-10.26.21:780][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.053686 seconds
-[2018.02.21-10.26.21:792][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.02.21-10.26.21:792][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2018.02.21-10.26.21:792][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.21-10.26.21:948][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.21-10.26.28:013][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.21-10.26.28:067][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.21-10.26.29:108][  0]LogConfig: Warning: Failed to saved backup for config[InternationalizationExport]
-[2018.02.21-10.26.29:218][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.21-10.26.29:836][  0]SourceControl: Source control is disabled
-[2018.02.21-10.26.31:426][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.21-10.26.31:797][  0]LogOcInput: OculusInput pre-init called
-[2018.02.21-10.26.32:165][  0]LogEngine: Initializing Engine...
-[2018.02.21-10.26.32:168][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.21-10.26.32:506][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.21-10.26.32:506][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.21-10.26.32:811][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.21-10.26.32:824][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.21-10.26.33:017][  0]LogInit: FAudioDevice initialized.
-[2018.02.21-10.26.33:036][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.02.21-10.26.33:051][  0]LogInit: Texture streaming: Enabled
-[2018.02.21-10.26.33:217][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.21-10.26.33:682][  0]LogInit: Transaction tracking system initialized
-[2018.02.21-10.26.34:235][  0]BlueprintLog: New page: Editor Load
-[2018.02.21-10.26.36:035][  0]LocalizationService: Localization service is disabled
-[2018.02.21-10.26.37:637][  0]LogConsoleResponse: Display: 
-[2018.02.21-10.26.38:108][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.21-10.26.38:108][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.21-10.26.38:108][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.21-10.26.38:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' took 0.04s
-[2018.02.21-10.26.40:313][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.21-10.26.40:314][  0]LightingResults: New page: Lighting Build
-[2018.02.21-10.26.40:383][  0]MapCheck: New page: Map Check
-[2018.02.21-10.26.40:383][  0]LightingResults: New page: Lighting Build
-[2018.02.21-10.26.42:736][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.02.21-10.26.42:774][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.21-10.26.42:839][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.21-10.26.42:962][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 122.22ms to complete.
-[2018.02.21-10.26.42:962][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 2.649
-[2018.02.21-10.26.43:196][  0]LogCollectionManager: Loaded 0 collections in 0.004333 seconds
-[2018.02.21-10.26.43:317][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' took 0.01s
-[2018.02.21-10.26.43:317][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Leif/Collections/' took 0.01s
-[2018.02.21-10.26.43:317][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' took 0.01s
-[2018.02.21-10.26.43:317][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.02.21-10.26.43:333][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2386 classes and 500 folders.
-[2018.02.21-10.26.43:457][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.02.21-10.26.43:769][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2018.02.21-10.26.43:850][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.02.21-10.26.43:984][  0]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.21-10.26.43:987][  0]LogSlate: Took 0.000842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.21-10.26.43:997][  0]LogSlate: Took 0.001533 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.21-10.26.44:122][  0]LogRenderer: Reallocating scene render targets to support 708x248 Format 10 NumSamples 1 (Frame:1).
-[2018.02.21-10.26.44:540][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2018.02.21-10.26.44:541][  0]LogLoad: (Engine Initialization) Total time: 37.98 seconds
-[2018.02.21-10.26.44:541][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.21-10.26.44:541][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.21-10.26.44:541][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.21-10.26.44:908][  0]SourceControl: On branch master
-[2018.02.21-10.26.44:908][  0]SourceControl: Your branch and 'origin/master' have diverged,
-[2018.02.21-10.26.44:908][  0]SourceControl: and have 2 and 1 different commits each, respectively.
-[2018.02.21-10.26.44:908][  0]SourceControl:   (use "git pull" to merge the remote branch into yours)
-[2018.02.21-10.26.44:908][  0]SourceControl: Changes not staged for commit:
-[2018.02.21-10.26.44:909][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
-[2018.02.21-10.26.44:909][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.02.21-10.26.44:909][  0]SourceControl: 	modified:   ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/Enemies/Default_Enemy.uasset
-[2018.02.21-10.26.44:909][  0]SourceControl: 	modified:   ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/MainMenuHUD.uasset
-[2018.02.21-10.26.44:909][  0]SourceControl: 	modified:   ProjektX_V0_1/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
-[2018.02.21-10.26.44:909][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/AssetRegistryCache/311563bb.bin
-[2018.02.21-10.26.44:909][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/AssetRegistryCache/c90e3f55.bin
-[2018.02.21-10.26.44:909][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/CachedAssetRegistry.bin
-[2018.02.21-10.26.44:909][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/AutoScreenshot.png
-[2018.02.21-10.26.44:909][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MainMenuHUD_Auto1.uasset
-[2018.02.21-10.26.44:909][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
-[2018.02.21-10.26.44:909][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-3369DE1B47792ED41D4BD1B8DA1B2F89/CrashReportClient.ini
-[2018.02.21-10.26.44:909][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-417C8F084B12A9497387ABBBE7D2DDD8/CrashReportClient.ini
-[2018.02.21-10.26.44:910][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-B430A076426C01294E81868B0F9ADF68/CrashReportClient.ini
-[2018.02.21-10.26.44:910][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Config/CrashReportClient/UE4CC-Windows-C3DA68D442446E633CFC1E807F112247/CrashReportClient.ini
-[2018.02.21-10.26.44:910][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/Editor.ini
-[2018.02.21-10.26.44:910][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.02.21-10.26.44:910][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/Engine.ini
-[2018.02.21-10.26.44:910][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/WorldState/2301629174.json
-[2018.02.21-10.26.44:910][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2018.02.12-16.14.01.log
-[2018.02.21-10.26.44:910][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2018.02.12-18.40.42.log
-[2018.02.21-10.26.44:911][  0]SourceControl: 	deleted:    ProjektX_V0_1/Saved/Logs/ProjektX_V0_0-backup-2018.02.12-19.03.46.log
-[2018.02.21-10.26.44:912][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Logs/ProjektX_V0_0.log
-[2018.02.21-10.26.44:912][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Logs/ProjektX_V0_0_2.log
-[2018.02.21-10.26.44:912][  0]SourceControl: Untracked files:
-[2018.02.21-10.26.44:912][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2018.02.21-10.26.44:912][  0]SourceControl: 	ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemies/Default_Enemy_Auto1.uasset
-[2018.02.21-10.26.44:912][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/2DSideScrollerExampleMap_2018-02-21-06-26-49.umap
-[2018.02.21-10.26.44:913][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/Default_Enemy_2018-02-21-06-26-49.uasset
-[2018.02.21-10.26.44:913][  0]SourceControl: 	ProjektX_V0_1/Saved/Backup/MainMenuHUD_2018-02-21-06-26-49.uasset
-[2018.02.21-10.26.44:913][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2018.02.21-10.26.44:914][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.21-10.26.45:340][  1]LogSlate: Took 0.004080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.21-10.26.46:574][  5]LogAssetRegistry: Asset discovery search completed in 27.3202 seconds
-[2018.02.21-10.26.46:585][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.02.21-10.26.46:585][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000257 seconds (updated 0 objects)
-[2018.02.21-10.31.12:101][958]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.21-10.31.12:361][959]Cmd: QUIT_EDITOR
-[2018.02.21-10.31.12:454][959]LogExit: Preparing to exit.
-[2018.02.21-10.31.13:496][959]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
-[2018.02.21-10.31.13:608][959]LogExit: Editor shut down
-[2018.02.21-10.31.13:638][959]LogExit: Transaction tracking system shut down
-[2018.02.21-10.31.13:946][959]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.02.21-10.31.13:947][959]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
-[2018.02.21-10.31.13:947][959]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.02.21-10.31.13:947][959]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.02.21-10.31.13:947][959]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.02.21-10.31.14:051][959]LogExit: Object subsystem successfully closed.
-[2018.02.21-10.31.14:067][959]LogD3D11RHI: Shutdown
-[2018.02.21-10.31.14:067][959]LogD3D11RHI: CleanupD3DDevice
-[2018.02.21-10.31.14:198][959]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.02.21-10.31.14:217][959]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2018.02.21-10.31.14:217][959]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2018.02.21-10.31.14:217][959]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2018.02.21-10.31.14:217][959]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2018.02.21-10.31.14:226][959]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2018.02.21-10.31.14:226][959]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2018.02.21-10.31.14:226][959]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2018.02.21-10.31.14:226][959]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' was aborted.
-[2018.02.21-10.31.14:226][959]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Leif/Collections/' was aborted.
-[2018.02.21-10.31.14:226][959]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' was aborted.
-[2018.02.21-10.31.14:226][959]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2018.02.21-10.31.14:226][959]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2018.02.21-10.31.14:226][959]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module Media (477)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2018.02.21-10.31.14:227][959]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2018.02.21-10.31.14:228][959]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2018.02.21-10.31.14:228][959]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2018.02.21-10.31.14:228][959]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2018.02.21-10.31.14:228][959]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2018.02.21-10.31.14:228][959]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2018.02.21-10.31.14:228][959]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2018.02.21-10.31.15:070][959]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2018.02.21-10.31.15:070][959]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2018.02.21-10.31.15:070][959]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2018.02.21-10.31.15:070][959]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2018.02.21-10.31.15:070][959]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2018.02.21-10.31.15:070][959]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2018.02.21-10.31.15:070][959]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2018.02.21-10.31.15:070][959]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2018.02.21-10.31.15:071][959]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2018.02.21-10.31.15:071][959]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2018.02.21-10.31.15:071][959]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2018.02.21-10.31.15:071][959]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2018.02.21-10.31.15:071][959]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2018.02.21-10.31.15:071][959]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2018.02.21-10.31.15:071][959]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2018.02.21-10.31.15:071][959]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2018.02.21-10.31.15:071][959]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2018.02.21-10.31.15:072][959]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2018.02.21-10.31.15:072][959]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2018.02.21-10.31.15:072][959]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2018.02.21-10.31.15:072][959]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2018.02.21-10.31.15:072][959]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2018.02.21-10.31.15:073][959]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2018.02.21-10.31.15:073][959]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2018.02.21-10.31.15:136][959]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2018.02.21-10.31.15:136][959]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2018.02.21-10.31.15:136][959]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2018.02.21-10.31.15:136][959]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2018.02.21-10.31.15:137][959]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2018.02.21-10.31.15:137][959]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2018.02.21-10.31.15:137][959]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2018.02.21-10.31.15:137][959]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2018.02.21-10.31.15:137][959]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2018.02.21-10.31.15:137][959]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2018.02.21-10.31.15:141][959]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2018.02.21-10.31.15:142][959]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2018.02.21-10.31.15:143][959]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2018.02.21-10.31.15:143][959]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2018.02.21-10.31.15:143][959]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2018.02.21-10.31.15:143][959]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2018.02.21-10.31.15:143][959]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2018.02.21-10.31.15:143][959]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2018.02.21-10.31.15:143][959]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2018.02.21-10.31.15:342][959]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2018.02.21-10.31.15:343][959]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2018.02.21-10.31.15:344][959]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2018.02.21-10.31.15:345][959]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2018.02.21-10.31.15:345][959]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2018.02.21-10.31.15:345][959]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2018.02.21-10.31.15:346][959]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2018.02.21-10.31.15:346][959]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2018.02.21-10.31.15:346][959]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2018.02.21-10.31.15:348][959]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2018.02.21-10.31.15:348][959]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2018.02.21-10.31.15:348][959]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2018.02.21-10.31.15:348][959]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2018.02.21-10.31.15:348][959]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2018.02.21-10.31.15:348][959]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2018.02.21-10.31.15:348][959]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2018.02.21-10.31.15:348][959]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2018.02.21-10.31.15:449][959]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2018.02.21-10.31.15:549][959]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2018.02.21-10.31.15:549][959]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2018.02.21-10.31.15:549][959]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2018.02.21-10.31.15:549][959]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2018.02.21-10.31.15:549][959]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2018.02.21-10.31.15:550][959]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2018.02.21-10.31.15:551][959]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2018.02.21-10.31.15:551][959]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2018.02.21-10.31.15:551][959]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2018.02.21-10.31.15:551][959]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2018.02.21-10.31.15:552][959]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2018.02.21-10.31.15:553][959]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2018.02.21-10.31.15:553][959]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2018.02.21-10.31.15:553][959]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2018.02.21-10.31.15:553][959]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2018.02.21-10.31.15:553][959]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2018.02.21-10.31.15:553][959]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2018.02.21-10.31.15:559][959]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module Core (168)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2018.02.21-10.31.15:560][959]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2018.02.21-10.31.15:561][959]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2018.02.21-10.31.15:562][959]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.02.21-10.31.15:620][959]LogDerivedDataCache: Shutdown
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.02.21-10.31.15:620][959]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.02.21-10.31.15:621][959]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.02.21-10.31.15:621][959]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.02.21-10.31.15:621][959]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.02.21-10.31.15:621][959]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.02.21-10.31.15:621][959]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.02.21-10.31.15:621][959]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.02.21-10.31.15:623][959]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.02.21-10.31.15:623][959]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.02.21-10.31.15:624][959]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.02.21-10.31.15:625][959]LogOnline: Display: Unloading online subsystem: NULL
-[2018.02.21-10.31.15:625][959]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.02.21-10.31.15:626][959]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.02.21-10.31.15:626][959]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.02.21-10.31.15:626][959]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0A9E6A23-434C-3DAE-076C-A496DFB819F6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=efba3ab9482b305128aa6e811f8e1b76%7C69587fd7c6ae41c4ad6af4aa39d8897a%7C4823cf29-f1b7-4149-9c67-b669424bd616&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.02.21-10.31.15:660][959]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.02.21-10.31.15:663][959]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.02.21-10.31.15:663][959]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.02.21-10.31.15:663][959]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.02.21-10.31.15:663][959]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.02.21-10.31.15:664][959]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.02.21-10.31.15:664][959]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.02.21-10.31.15:664][959]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.02.21-10.31.15:665][959]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.02.21-10.31.15:669][959]LogExit: Exiting.
-[2018.02.21-10.31.15:763][959]Log file closed, 02/21/18 11:31:15
+[2018.02.21-13.40.11:607][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.21-13.40.11:608][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.21-13.40.11:627][  0]LogInit: Computer: LEIF
+[2018.02.21-13.40.11:627][  0]LogInit: User: Leif
+[2018.02.21-13.40.11:627][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.02.21-13.40.11:627][  0]LogInit: High frequency timer resolution =2.338335 MHz
+[2018.02.21-13.40.11:628][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.21-13.40.11:628][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.21-13.40.11:628][  0]LogMemory: Process Physical Memory: 280.21 MB used, 280.21 MB peak
+[2018.02.21-13.40.11:628][  0]LogMemory: Process Virtual Memory: 290.16 MB used, 290.16 MB peak
+[2018.02.21-13.40.11:628][  0]LogMemory: Physical Memory: 5305.32 MB used,  2789.14 MB free, 8094.46 MB total
+[2018.02.21-13.40.11:628][  0]LogMemory: Virtual Memory: 681.31 MB used,  2789.14 MB free, 134217728.00 MB total
+[2018.02.21-13.40.12:462][  0]LogInit: Using OS detected language (de-DE).
+[2018.02.21-13.40.12:462][  0]LogInit: Using OS detected locale (de-DE).
+[2018.02.21-13.40.12:478][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2018.02.21-13.40.12:479][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2018.02.21-13.40.13:961][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.21-13.40.14:002][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2018.02.21-13.40.14:002][  0]LogD3D11RHI:       2019/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.21-13.40.14:041][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2018.02.21-13.40.14:041][  0]LogD3D11RHI:       128/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.21-13.40.14:043][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.21-13.40.14:043][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.21-13.40.14:043][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.21-13.40.14:052][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.21-13.40.14:052][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.21-13.40.14:052][  0]LogWindows: EnumDisplayDevices:
+[2018.02.21-13.40.14:053][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2018.02.21-13.40.14:053][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.02.21-13.40.14:053][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.02.21-13.40.14:053][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.21-13.40.14:054][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2018.02.21-13.40.14:054][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.21-13.40.14:054][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.21-13.40.14:054][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.21-13.40.14:078][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.21-13.40.14:112][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.21-13.40.14:117][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Intermediate/Shaders/WorkingDirectory/10596/).
+[2018.02.21-13.40.14:117][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Leif/AppData/Local/Temp/UnrealShaderWorkingDir/675F8F4B471000FFA8115598B26BA5D0/'.
+[2018.02.21-13.40.14:117][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.21-13.40.16:214][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.21-13.40.16:318][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.21-13.40.16:426][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.21-13.40.16:534][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.21-13.40.16:640][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.21-13.40.16:753][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.21-13.40.16:865][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.21-13.40.16:974][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.21-13.40.17:072][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.21-13.40.17:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.21-13.40.17:276][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.21-13.40.17:374][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.21-13.40.17:472][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.21-13.40.17:577][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.21-13.40.17:677][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.21-13.40.17:882][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.21-13.40.17:882][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.21-13.40.17:969][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.21-13.40.18:155][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.21-13.40.18:220][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.21-13.40.18:322][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.21-13.40.18:433][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.21-13.40.18:552][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.21-13.40.18:653][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.21-13.40.18:654][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.21-13.40.19:856][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.21-13.40.20:414][  0]LogDerivedDataCache: Loaded boot cache 0.56s 93MB C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.21-13.40.20:414][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.02.21-13.40.20:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.21-13.40.20:415][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.21-13.40.20:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.21-13.40.20:415][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.21-13.40.20:456][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.21-13.40.20:470][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Leif/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.21-13.40.20:487][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.21-13.40.20:489][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.21-13.40.20:495][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.21-13.40.20:495][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.21-13.40.22:225][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
+[2018.02.21-13.40.22:470][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.21-13.40.23:472][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.21-13.40.23:580][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.21-13.40.23:580][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.21-13.40.23:580][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.21-13.40.23:580][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.21-13.40.23:580][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.21-13.40.23:584][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.21-13.40.24:467][  0]LogNetVersion: ProjektX_V0_0 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2444259609)
+[2018.02.21-13.40.24:944][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.058225 seconds
+[2018.02.21-13.40.24:954][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.02.21-13.40.24:954][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.02.21-13.40.24:954][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.21-13.40.25:109][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.21-13.40.33:149][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.21-13.40.33:228][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.21-13.40.34:680][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.21-13.40.35:427][  0]SourceControl: Source control is disabled
+[2018.02.21-13.40.37:425][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.21-13.40.37:914][  0]LogOcInput: OculusInput pre-init called
+[2018.02.21-13.40.38:422][  0]LogEngine: Initializing Engine...
+[2018.02.21-13.40.38:434][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.21-13.40.38:785][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.21-13.40.38:785][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.21-13.40.39:106][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.21-13.40.39:135][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-13.40.39:254][  0]LogInit: FAudioDevice initialized.
+[2018.02.21-13.40.39:365][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/Leif/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.21-13.40.39:384][  0]LogInit: Texture streaming: Enabled
+[2018.02.21-13.40.39:646][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.21-13.40.40:147][  0]LogInit: Transaction tracking system initialized
+[2018.02.21-13.40.40:855][  0]BlueprintLog: New page: Editor Load
+[2018.02.21-13.40.42:783][  0]LocalizationService: Localization service is disabled
+[2018.02.21-13.40.44:331][  0]LogConsoleResponse: Display: 
+[2018.02.21-13.40.44:660][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.21-13.40.44:661][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.21-13.40.44:662][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.21-13.40.44:978][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' took 0.02s
+[2018.02.21-13.40.46:862][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.21-13.40.46:864][  0]LightingResults: New page: Lighting Build
+[2018.02.21-13.40.46:956][  0]MapCheck: New page: Map Check
+[2018.02.21-13.40.46:957][  0]LightingResults: New page: Lighting Build
+[2018.02.21-13.40.49:224][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.02.21-13.40.49:259][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.21-13.40.49:396][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.21-13.40.49:682][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 285.409ms to complete.
+[2018.02.21-13.40.49:682][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 2.821
+[2018.02.21-13.40.49:766][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.21-13.40.50:022][  0]LogCollectionManager: Loaded 0 collections in 0.002849 seconds
+[2018.02.21-13.40.50:178][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' took 0.01s
+[2018.02.21-13.40.50:178][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Leif/Collections/' took 0.01s
+[2018.02.21-13.40.50:178][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' took 0.01s
+[2018.02.21-13.40.50:178][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.21-13.40.50:190][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2386 classes and 500 folders.
+[2018.02.21-13.40.50:304][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.02.21-13.40.50:456][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.21-13.40.50:549][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.02.21-13.40.50:728][  0]LogSlate: Took 0.003782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.21-13.40.50:734][  0]LogSlate: Took 0.003012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.21-13.40.50:747][  0]LogSlate: Took 0.003502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.21-13.40.50:881][  0]LogRenderer: Reallocating scene render targets to support 708x248 Format 10 NumSamples 1 (Frame:1).
+[2018.02.21-13.40.51:230][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.21-13.40.51:231][  0]LogLoad: (Engine Initialization) Total time: 42.81 seconds
+[2018.02.21-13.40.51:231][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.21-13.40.51:231][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.21-13.40.51:231][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.21-13.40.51:264][  0]SourceControl: On branch master
+[2018.02.21-13.40.51:264][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2018.02.21-13.40.51:264][  0]SourceControl: Changes not staged for commit:
+[2018.02.21-13.40.51:264][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.02.21-13.40.51:264][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.02.21-13.40.51:264][  0]SourceControl: 	modified:   ProjektX_V0_1/Intermediate/CachedAssetRegistry.bin
+[2018.02.21-13.40.51:264][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/Editor.ini
+[2018.02.21-13.40.51:264][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Config/Windows/Engine.ini
+[2018.02.21-13.40.51:264][  0]SourceControl: 	modified:   ProjektX_V0_1/Saved/Logs/ProjektX_V0_0.log
+[2018.02.21-13.40.51:264][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.02.21-13.40.51:265][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.21-13.40.51:287][  0]LogSlate: Took 0.001275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.21-13.40.51:320][  1]LogAssetRegistry: Asset discovery search completed in 29.1173 seconds
+[2018.02.21-13.40.51:322][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.21-13.40.51:322][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2018.02.21-13.41.10:788][ 49]LogEditorViewport: Clicking on Actor (LMB): Rusher_C (Melee Schwer)
+[2018.02.21-13.41.36:315][462]LogSlate: Took 0.001676 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.21-13.42.09:715][357]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.21-13.42.10:245][357]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2018.02.21-13.42.11:089][357]LogSlate: Took 0.001893 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.21-13.45.02:984][882]BlueprintLog: New page: Compile Rusher
+[2018.02.21-13.45.05:424][959]LogSavePackage: Save=245.13ms
+[2018.02.21-13.45.05:424][959]LogSavePackage: Moving '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Rusher0E22889641FFEDE2C18B2B8E3BC773C4.tmp' to '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/Enemies/Rusher.uasset'
+[2018.02.21-13.45.05:435][959]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/Enemies/Rusher.uasset
+[2018.02.21-13.45.07:612][ 63]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.02.21-13.45.07:817][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.02.21-13.45.07:818][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-13.45.07:825][ 63]PIE: New page: PIE session: 2DSideScrollerExampleMap (Feb 21, 2018, 3:45:07 PM)
+[2018.02.21-13.45.07:825][ 63]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.02.21-13.45.07:834][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009002s)
+[2018.02.21-13.45.07:835][ 63]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.02.21-13.45.07:835][ 63]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2018.02.21-13.45.07:836][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.010889s)
+[2018.02.21-13.45.07:876][ 63]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-13.45.07:893][ 63]LogInit: FAudioDevice initialized.
+[2018.02.21-13.45.07:967][ 63]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.21-13.45.07:983][ 63]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.02.21-14.45.07
+[2018.02.21-13.45.07:990][ 63]LogWorld: Bringing up level for play took: 0.013122
+[2018.02.21-13.45.08:100][ 63]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2018.02.21-13.45.08:119][ 63]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.249
+[2018.02.21-13.45.08:120][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.02.21-13.45.08:127][ 63]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:232][ 63]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.02.21-13.45.08:270][ 64]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:434][ 65]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:457][ 66]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:482][ 67]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:501][ 68]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:524][ 69]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:547][ 70]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:571][ 71]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:595][ 72]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:613][ 73]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:634][ 74]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:657][ 75]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:678][ 76]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:697][ 77]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:715][ 78]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:736][ 79]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:759][ 80]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:778][ 81]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:800][ 82]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:819][ 83]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:837][ 84]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:855][ 85]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:879][ 86]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:900][ 87]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:925][ 88]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:945][ 89]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:965][ 90]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.08:987][ 91]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:007][ 92]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:024][ 93]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:041][ 94]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:060][ 95]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:079][ 96]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:097][ 97]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:115][ 98]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:135][ 99]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:156][100]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:175][101]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:195][102]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:217][103]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:236][104]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:260][105]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:281][106]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:302][107]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:323][108]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:343][109]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:363][110]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:382][111]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:402][112]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:423][113]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:443][114]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:443][114]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.09:443][114]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.09:463][115]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.09:464][115]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.09:464][115]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:484][116]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:502][117]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:524][118]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:544][119]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:562][120]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:579][121]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:598][122]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:617][123]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:633][124]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:656][125]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:674][126]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:694][127]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:716][128]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:733][129]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:752][130]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:776][131]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:800][132]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:825][133]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:846][134]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:870][135]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:892][136]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:911][137]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:929][138]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:947][139]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:967][140]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.09:994][141]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:017][142]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:035][143]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:057][144]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:075][145]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:093][146]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:111][147]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:129][148]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:148][149]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:167][150]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:185][151]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:207][152]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:224][153]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:242][154]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:260][155]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:280][156]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:298][157]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:315][158]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:335][159]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:356][160]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:375][161]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:394][162]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:414][163]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:434][164]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:456][165]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:474][166]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:496][167]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:514][168]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:535][169]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:556][170]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:575][171]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:596][172]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:616][173]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:636][174]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:656][175]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:676][176]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:696][177]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:716][178]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:736][179]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:757][180]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:778][181]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:796][182]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:816][183]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:836][184]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:860][185]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:881][186]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:901][187]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:920][188]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:942][189]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:964][190]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.10:964][190]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.10:964][190]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.10:985][191]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.10:986][191]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.10:986][191]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:009][192]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:028][193]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:050][194]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:074][195]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:096][196]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:116][197]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:137][198]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:160][199]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:180][200]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:202][201]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:224][202]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:245][203]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:262][204]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:285][205]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:307][206]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:328][207]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:346][208]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:364][209]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:386][210]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:408][211]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:427][212]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:449][213]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:469][214]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:493][215]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:513][216]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:534][217]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:554][218]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:576][219]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:598][220]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:618][221]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:640][222]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:661][223]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:681][224]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:701][225]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:724][226]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:745][227]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:766][228]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:785][229]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:807][230]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:828][231]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:850][232]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:874][233]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:895][234]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:915][235]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:936][236]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:960][237]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.11:980][238]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:007][239]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:030][240]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:049][241]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:068][242]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:087][243]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:103][244]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:122][245]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:140][246]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:158][247]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:178][248]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:200][249]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:223][250]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:247][251]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:269][252]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:294][253]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:320][254]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:349][255]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:377][256]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:403][257]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:432][258]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:460][259]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:485][260]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:485][260]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.12:485][260]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.12:513][261]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.12:514][261]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.12:514][261]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:545][262]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:573][263]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:603][264]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:633][265]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:660][266]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:682][267]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:703][268]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:726][269]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:748][270]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:770][271]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:792][272]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:816][273]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:837][274]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:862][275]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:884][276]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:907][277]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:929][278]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:950][279]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:974][280]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.12:996][281]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:019][282]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:042][283]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:062][284]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:080][285]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:100][286]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:124][287]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:145][288]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:166][289]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:189][290]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:212][291]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:234][292]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:259][293]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:281][294]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:307][295]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:329][296]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:352][297]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:373][298]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:395][299]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:413][300]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:430][301]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:449][302]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:471][303]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:494][304]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:515][305]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:540][306]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:561][307]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:580][308]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:601][309]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:624][310]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:643][311]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:665][312]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:686][313]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:708][314]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:726][315]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:747][316]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:768][317]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:791][318]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:812][319]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:832][320]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:856][321]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:876][322]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:896][323]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:915][324]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:936][325]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:957][326]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.13:977][327]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:001][328]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:001][328]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.14:001][328]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.14:028][329]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.14:028][329]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.14:028][329]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:046][330]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:064][331]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:086][332]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:108][333]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:126][334]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:143][335]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:161][336]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:179][337]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:196][338]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:214][339]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:232][340]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:252][341]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:273][342]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:294][343]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:315][344]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:334][345]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:356][346]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:376][347]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:396][348]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:416][349]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:438][350]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:458][351]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:478][352]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:503][353]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:526][354]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:549][355]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:573][356]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:597][357]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:626][358]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:652][359]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:676][360]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:697][361]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:716][362]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:734][363]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:756][364]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:775][365]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:796][366]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:816][367]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:839][368]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:860][369]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:887][370]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:925][371]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:952][372]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.14:980][373]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:010][374]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:040][375]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:067][376]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:095][377]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:120][378]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:150][379]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:179][380]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:203][381]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:234][382]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:267][383]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:294][384]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:324][385]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:363][386]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:390][387]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:417][388]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:445][389]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:463][390]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:484][391]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:509][392]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:509][392]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.15:509][392]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.15:526][393]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.15:526][393]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.15:526][393]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:551][394]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:574][395]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:594][396]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:614][397]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:631][398]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:650][399]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:669][400]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:687][401]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:709][402]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:729][403]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:749][404]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:769][405]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:792][406]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:813][407]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:831][408]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:851][409]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:872][410]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:891][411]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:909][412]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:927][413]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:945][414]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:965][415]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.15:985][416]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:007][417]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:032][418]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:051][419]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:068][420]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:089][421]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:108][422]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:129][423]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:149][424]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:169][425]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:191][426]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:211][427]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:231][428]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:252][429]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:273][430]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:293][431]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:313][432]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:333][433]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:356][434]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:375][435]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:395][436]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:416][437]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:436][438]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:457][439]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:477][440]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:497][441]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:518][442]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:540][443]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:559][444]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:579][445]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:600][446]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:627][447]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:656][448]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:682][449]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:708][450]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:726][451]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:748][452]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:768][453]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:785][454]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:805][455]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:824][456]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:840][457]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:864][458]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:884][459]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:900][460]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:919][461]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:942][462]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:961][463]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.16:981][464]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:001][465]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:023][466]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:043][467]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:043][467]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.17:043][467]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.17:065][468]LogScript: Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+	Rusher_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.MeleeSchwer
+	Function /Game/2DSideScrollerBP/Blueprints/Enemies/Rusher.Rusher_C:ExecuteUbergraph_Rusher:0A6F
+[2018.02.21-13.45.17:065][468]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator from function: 'ExecuteUbergraph_Rusher' from node: Add Movement Input in graph: EventGraph in object: Rusher with description: Accessed None trying to read property K2Node_ComponentBoundEvent_Instigator
+[2018.02.21-13.45.17:065][468]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:083][469]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:103][470]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:125][471]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:145][472]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:166][473]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:184][474]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:211][475]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:229][476]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:252][477]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:278][478]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:295][479]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:318][480]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:338][481]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:367][482]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:389][483]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:408][484]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:428][485]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:450][486]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:473][487]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:490][488]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:508][489]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:532][490]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:561][491]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:590][492]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:613][493]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:667][494]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:700][495]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:733][496]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:759][497]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:805][498]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:835][499]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:864][500]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:892][501]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:935][502]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:962][503]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.17:993][504]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.18:024][505]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.18:055][506]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.18:084][507]LogBlueprintUserMessages: [MeleeSchwer] Idle
+[2018.02.21-13.45.18:086][507]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.02.21-13.45.18:346][507]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.02.21-13.50.52:752][160]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.21-13.51.02:044][652]LogSavePackage: Save=160.01ms
+[2018.02.21-13.51.02:044][652]LogSavePackage: Moving '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/2DSideScrollerExampleMap_Auto1B65A52D6483EAC93AB16C1A13D5DBC20.tmp' to '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2018.02.21-13.51.02:049][652]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2018.02.21-13.51.02:052][652]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.282
+[2018.02.21-13.51.02:052][652]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.282
+[2018.02.21-13.51.02:056][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Enemies/Rusher] ([1] browsable assets)...
+[2018.02.21-13.51.02:056][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Enemies/Rusher]
+[2018.02.21-13.51.02:365][652]LogSavePackage: Save=233.34ms
+[2018.02.21-13.51.02:365][652]LogSavePackage: Moving '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Rusher_Auto1549E269545A90A58C0168CB59AF999D7.tmp' to '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemies/Rusher_Auto1.uasset'
+[2018.02.21-13.51.02:370][652]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemies/Rusher_Auto1.uasset
+[2018.02.21-13.51.02:370][652]LogFileHelpers: Auto-saving content packages took 0.316
+[2018.02.21-14.01.02:555][620]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.038
+[2018.02.21-14.01.02:559][620]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Enemies/Rusher] ([1] browsable assets)...
+[2018.02.21-14.01.02:559][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Enemies/Rusher]
+[2018.02.21-14.01.02:947][620]LogSavePackage: Save=285.81ms
+[2018.02.21-14.01.02:947][620]LogSavePackage: Moving '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Rusher_Auto21028C33E40C8928BCF24DA8FB0C26C1B.tmp' to '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemies/Rusher_Auto2.uasset'
+[2018.02.21-14.01.02:952][620]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemies/Rusher_Auto2.uasset
+[2018.02.21-14.01.02:952][620]LogFileHelpers: Auto-saving content packages took 0.397
+[2018.02.21-14.08.45:950][540]LogSavePackage: Save=246.03ms
+[2018.02.21-14.08.45:950][540]LogSavePackage: Moving '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/RusherD0ADB5DC4183946CDDA934B39C8500AE.tmp' to '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/Enemies/Rusher.uasset'
+[2018.02.21-14.08.45:958][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/2DSideScrollerBP/Blueprints/Enemies/Rusher.uasset
+[2018.02.21-14.08.46:219][540]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.21-14.08.46:525][541]Cmd: QUIT_EDITOR
+[2018.02.21-14.08.47:476][541]LogExit: Preparing to exit.
+[2018.02.21-14.08.48:125][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
+[2018.02.21-14.08.48:226][541]PIE: UWidget::RemoveFromParent() called on 'None.None:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.21-14.08.48:319][541]LogExit: Editor shut down
+[2018.02.21-14.08.48:357][541]LogExit: Transaction tracking system shut down
+[2018.02.21-14.08.48:746][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.21-14.08.48:747][541]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/' was aborted.
+[2018.02.21-14.08.48:747][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.21-14.08.48:747][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.21-14.08.48:747][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.21-14.08.48:973][541]LogExit: Object subsystem successfully closed.
+[2018.02.21-14.08.49:014][541]LogD3D11RHI: Shutdown
+[2018.02.21-14.08.49:014][541]LogD3D11RHI: CleanupD3DDevice
+[2018.02.21-14.08.49:168][541]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.21-14.08.49:213][541]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2018.02.21-14.08.49:213][541]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2018.02.21-14.08.49:213][541]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2018.02.21-14.08.49:215][541]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.02.21-14.08.49:215][541]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.02.21-14.08.49:215][541]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.02.21-14.08.49:215][541]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.02.21-14.08.49:224][541]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.02.21-14.08.49:224][541]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.02.21-14.08.49:224][541]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.02.21-14.08.49:224][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Collections/' was aborted.
+[2018.02.21-14.08.49:224][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Content/Developers/Leif/Collections/' was aborted.
+[2018.02.21-14.08.49:224][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Leif/Documents/GitHub/Projekt-B-Projekt-X/ProjektX_V0_1/Saved/Collections/' was aborted.
+[2018.02.21-14.08.49:225][541]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.02.21-14.08.49:225][541]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.02.21-14.08.49:225][541]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.02.21-14.08.49:226][541]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.02.21-14.08.49:226][541]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.02.21-14.08.49:226][541]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.02.21-14.08.49:226][541]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.02.21-14.08.49:226][541]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.02.21-14.08.49:226][541]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.02.21-14.08.49:226][541]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.02.21-14.08.49:226][541]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.02.21-14.08.49:226][541]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.02.21-14.08.49:227][541]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.02.21-14.08.49:227][541]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.02.21-14.08.49:228][541]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.02.21-14.08.49:230][541]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.02.21-14.08.49:230][541]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.02.21-14.08.49:230][541]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.02.21-14.08.49:230][541]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.02.21-14.08.49:230][541]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.02.21-14.08.49:230][541]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.02.21-14.08.49:230][541]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.02.21-14.08.49:230][541]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.02.21-14.08.49:230][541]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.02.21-14.08.49:231][541]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.02.21-14.08.49:231][541]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.02.21-14.08.49:231][541]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.02.21-14.08.49:231][541]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.02.21-14.08.49:231][541]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.02.21-14.08.49:231][541]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.02.21-14.08.49:231][541]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.02.21-14.08.49:233][541]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.02.21-14.08.49:234][541]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.02.21-14.08.49:235][541]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.02.21-14.08.49:236][541]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.02.21-14.08.49:236][541]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.02.21-14.08.49:236][541]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.02.21-14.08.49:236][541]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.02.21-14.08.50:212][541]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.02.21-14.08.50:212][541]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.02.21-14.08.50:212][541]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.02.21-14.08.50:212][541]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.02.21-14.08.50:213][541]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.02.21-14.08.50:214][541]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.02.21-14.08.50:214][541]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.02.21-14.08.50:215][541]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.02.21-14.08.50:215][541]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.02.21-14.08.50:215][541]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.02.21-14.08.50:216][541]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.02.21-14.08.50:216][541]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.02.21-14.08.50:216][541]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.02.21-14.08.50:216][541]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.02.21-14.08.50:216][541]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.02.21-14.08.50:216][541]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.02.21-14.08.50:216][541]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.02.21-14.08.50:217][541]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.02.21-14.08.50:217][541]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.02.21-14.08.50:218][541]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.02.21-14.08.50:218][541]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.02.21-14.08.50:218][541]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.02.21-14.08.50:219][541]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.02.21-14.08.50:219][541]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.02.21-14.08.50:286][541]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.02.21-14.08.50:287][541]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.02.21-14.08.50:288][541]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.02.21-14.08.50:290][541]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.02.21-14.08.50:290][541]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.02.21-14.08.50:290][541]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.02.21-14.08.50:290][541]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.02.21-14.08.50:292][541]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.02.21-14.08.50:292][541]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.02.21-14.08.50:292][541]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.02.21-14.08.50:302][541]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.02.21-14.08.50:302][541]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.02.21-14.08.50:302][541]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.02.21-14.08.50:303][541]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.02.21-14.08.50:304][541]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.02.21-14.08.50:305][541]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.02.21-14.08.50:305][541]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.02.21-14.08.50:306][541]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.02.21-14.08.50:306][541]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.02.21-14.08.50:306][541]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.02.21-14.08.50:306][541]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.02.21-14.08.50:308][541]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.02.21-14.08.50:308][541]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.02.21-14.08.50:308][541]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.02.21-14.08.50:308][541]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.02.21-14.08.50:308][541]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.02.21-14.08.50:308][541]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.02.21-14.08.50:308][541]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.02.21-14.08.50:308][541]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.02.21-14.08.50:308][541]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.02.21-14.08.50:309][541]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.02.21-14.08.50:314][541]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.02.21-14.08.50:315][541]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.02.21-14.08.50:315][541]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.02.21-14.08.50:315][541]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.02.21-14.08.50:315][541]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.02.21-14.08.50:315][541]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.02.21-14.08.50:315][541]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.02.21-14.08.50:315][541]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.02.21-14.08.50:316][541]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.02.21-14.08.50:316][541]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.02.21-14.08.50:316][541]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.02.21-14.08.50:318][541]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.02.21-14.08.50:318][541]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.02.21-14.08.50:318][541]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.02.21-14.08.50:318][541]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.02.21-14.08.50:318][541]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.02.21-14.08.50:318][541]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.02.21-14.08.50:318][541]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.02.21-14.08.50:321][541]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.02.21-14.08.50:321][541]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.02.21-14.08.50:321][541]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.02.21-14.08.50:322][541]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.02.21-14.08.50:322][541]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.02.21-14.08.50:322][541]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.02.21-14.08.50:324][541]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.02.21-14.08.50:324][541]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.02.21-14.08.50:324][541]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.02.21-14.08.50:324][541]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.02.21-14.08.50:324][541]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.02.21-14.08.50:324][541]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.02.21-14.08.50:325][541]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.02.21-14.08.50:325][541]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.02.21-14.08.50:327][541]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.02.21-14.08.50:328][541]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.02.21-14.08.50:328][541]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.02.21-14.08.50:329][541]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.02.21-14.08.50:329][541]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.02.21-14.08.50:329][541]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.02.21-14.08.50:329][541]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.02.21-14.08.50:329][541]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.02.21-14.08.50:329][541]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.02.21-14.08.50:329][541]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.02.21-14.08.50:330][541]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.02.21-14.08.50:431][541]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.02.21-14.08.50:532][541]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.02.21-14.08.50:533][541]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.02.21-14.08.50:533][541]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.02.21-14.08.50:533][541]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.02.21-14.08.50:535][541]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.02.21-14.08.50:535][541]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.02.21-14.08.50:537][541]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.02.21-14.08.50:537][541]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.02.21-14.08.50:537][541]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.02.21-14.08.50:538][541]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.02.21-14.08.50:538][541]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.02.21-14.08.50:538][541]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.02.21-14.08.50:539][541]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.02.21-14.08.50:540][541]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.02.21-14.08.50:540][541]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.02.21-14.08.50:540][541]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.02.21-14.08.50:540][541]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.02.21-14.08.50:541][541]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.02.21-14.08.50:541][541]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.02.21-14.08.50:541][541]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.02.21-14.08.50:543][541]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.02.21-14.08.50:543][541]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.02.21-14.08.50:544][541]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.02.21-14.08.50:544][541]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.02.21-14.08.50:544][541]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.02.21-14.08.50:545][541]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.02.21-14.08.50:546][541]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.02.21-14.08.50:546][541]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.02.21-14.08.50:547][541]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.02.21-14.08.50:547][541]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.02.21-14.08.50:551][541]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.02.21-14.08.50:551][541]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.02.21-14.08.50:551][541]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.02.21-14.08.50:551][541]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.02.21-14.08.50:551][541]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.02.21-14.08.50:551][541]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.02.21-14.08.50:551][541]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.21-14.08.50:551][541]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.02.21-14.08.50:551][541]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.02.21-14.08.50:553][541]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.02.21-14.08.50:553][541]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.02.21-14.08.50:553][541]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.02.21-14.08.50:554][541]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.02.21-14.08.50:554][541]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.02.21-14.08.50:554][541]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.02.21-14.08.50:554][541]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.02.21-14.08.50:561][541]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.21-14.08.50:627][541]LogDerivedDataCache: Shutdown
+[2018.02.21-14.08.50:628][541]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.21-14.08.50:628][541]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.21-14.08.50:629][541]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.21-14.08.50:629][541]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.21-14.08.50:630][541]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.21-14.08.50:630][541]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.21-14.08.50:631][541]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.21-14.08.50:631][541]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.21-14.08.50:631][541]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.21-14.08.50:631][541]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.21-14.08.50:632][541]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.02.21-14.08.50:633][541]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.02.21-14.08.50:634][541]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.21-14.08.50:634][541]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.21-14.08.50:634][541]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.21-14.08.50:634][541]LogOnline: Display: Unloading online subsystem: NULL
+[2018.02.21-14.08.50:635][541]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.21-14.08.50:636][541]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.21-14.08.50:636][541]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.21-14.08.50:636][541]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7F13ECD1-4D6E-2C4D-A3BB-399A108370FC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=efba3ab9482b305128aa6e811f8e1b76%7C69587fd7c6ae41c4ad6af4aa39d8897a%7C4823cf29-f1b7-4149-9c67-b669424bd616&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.21-14.08.50:645][541]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.21-14.08.50:647][541]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.21-14.08.50:648][541]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.21-14.08.50:649][541]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.21-14.08.50:650][541]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.21-14.08.50:651][541]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.21-14.08.50:651][541]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.21-14.08.50:651][541]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.21-14.08.50:657][541]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.21-14.08.50:658][541]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.21-14.08.50:658][541]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.21-14.08.50:658][541]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.21-14.08.50:658][541]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.21-14.08.50:658][541]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.21-14.08.50:658][541]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.21-14.08.50:659][541]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.21-14.08.50:659][541]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.21-14.08.50:659][541]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.21-14.08.50:659][541]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.21-14.08.50:662][541]LogExit: Exiting.
+[2018.02.21-14.08.50:717][541]Log file closed, 02/21/18 15:08:50
